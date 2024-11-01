@@ -1,0 +1,90 @@
+@import '../../../node_modules/swiper/swiper-bundle.css';
+
+.wadi_carousel_container {
+  // height: 650px; 
+  .wadi_swiper {
+      width: 100%;
+      height: auto;
+
+      &.swiper-vertical{
+        height: 350px;
+      }
+  
+      // .swiper-wrapper {
+  
+      //   .swiper-slide {
+      //     background-color: burlywood !important;
+      //   }
+      // }
+    }
+
+
+    .wadi-swiper-button {
+      position: absolute;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      z-index: 1;
+      cursor: pointer;
+      font-size: 25px;
+      color: rgb(41, 41, 41);
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%); 
+        }
+      .wadi-swiper-button svg {
+        fill: rgba(238, 238, 238, 0.9);
+        height: 1em;
+        width: 1em; }
+      .wadi-swiper-button-prev {
+        left: 10px; }
+      .wadi-swiper-button-next {
+        right: 10px; }
+        
+        .wadi-swiper-button-vertical {
+          position: absolute;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          z-index: 1;
+          cursor: pointer;
+          font-size: 25px;
+          color: rgb(41, 41, 41);
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+                  transform: translateY(-50%); 
+              &.wadi_carousel_next_vertical {
+                top: 93%;
+                left: 50%;
+                z-index: 99999;
+              }
+              &.wadi_carousel_prev_vertical {
+                top: 7%;
+                left: 50%;
+                z-index: 99999;
+              }
+            }
+          .wadi-swiper-button-vertical svg {
+            fill: rgba(238, 238, 238, 0.9);
+            height: 1em;
+            width: 1em; }
+            
+            .swiper-pagination-bullet {
+              opacity: 1;
+            }
+
+}
+
+.wadi-screen-only {
+  position: absolute;
+  top: -10000em;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

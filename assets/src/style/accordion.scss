@@ -1,0 +1,81 @@
+@import './components/variables';
+
+.wadi-accordion-container {
+  .accordion {
+    margin-bottom: 20px;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .accordion__title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+    padding: 15px 20px;
+    width: 100%;
+    font: inherit;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    background: $wadi_primary_color;
+    border-radius: 0;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+
+    .wadi_accordion_icon_title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wadi-accordion-icon-closed {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .wadi-accordion-icon-opened {
+      display: none;
+    }
+    &.current-item .wadi-accordion-icon-closed {
+      display: none;
+    }
+    &.current-item .wadi-accordion-icon-opened {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wadi-accordion-title-text {
+        display: flex;
+        width: 100%;
+    }
+  }
+
+  .accordion__title:hover,
+  .accordion__title.current-item {
+    background: darken($wadi_primary_color, 5%);
+  }
+
+  .accordion__title:focus {
+    background: lighten($wadi_primary_color, 5%);
+    outline-color: #000;
+    outline-width: 2px;
+    outline-style: solid;
+  }
+
+  .accordion__content {
+    /* "max-height" isn't needed, but it's better for the first page draw. */
+    max-height: 0;
+    background: #fff;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+
+    .wadi-accordion-content-wrapper {
+      padding: 12px;
+    }
+  }
+}

@@ -1,0 +1,104 @@
+@import '../../src/style/components/_variables.scss';
+
+body.wadi-addons-for-elementor_page_wadi-settings {
+
+    h2, h3 {
+        background: lighten(#00c9a9, 50%);
+        padding: 1rem;
+        border-left: 13px solid #00c9a9;
+    }
+    // Integrations
+
+    .wadi_paypal_client_id {
+        width: 100%;
+        font-size: 22px;
+
+        input {
+            font-size: inherit;
+            width: 100%;
+            margin: 18px 0;
+        }
+    }
+
+    .wadi_paypal_currency {
+        font-size: 22px;
+        select {
+            font-size: inherit;
+            display: block;
+            margin: 18px 0;
+        }
+    }
+
+    #wpcontent {
+        padding-left: 0;
+    }
+    font-size: 16px;
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    //Wrapper
+    .wrapper {
+        margin: 0 auto;
+        padding: 2rem;
+        color: #000;
+    }
+    
+    
+    // Tabs
+    .tabs {
+      display: grid;
+    }
+    
+    [role="tablist"] {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      grid-gap: 10px;
+    }
+    
+    [role="tabpanel"] {
+        background: #ffffff;
+        padding: 2rem;
+    }
+    
+    a[role="tab"] {
+        background: #ffffff;
+        border: 0;
+        color: rgb(0, 0, 0);
+        cursor:pointer;
+        font-size: 1.5rem;
+        padding: 15px;
+        height: 100px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // font-weight: 900;
+
+        &:first-of-type {
+            border-radius: 25px 0 0 25px;
+        }
+
+        &:last-of-type {
+            border-radius: 0 25px 25px 0;
+        }
+
+        &:only-child {
+            border-radius: 25px;
+        }
+    }
+
+    .wadi_tabpanel {
+        border-radius: 25px;
+        margin-top: 20px;
+    }
+    
+    a[aria-selected="true"] {
+        background: #00c9a9;
+        box-shadow: none;
+        color: #fff;
+    }
+}

@@ -1,0 +1,1 @@
+import './style/testimonial.scss';

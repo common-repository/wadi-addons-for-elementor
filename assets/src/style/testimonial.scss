@@ -1,0 +1,606 @@
+@import './components/variables';
+
+
+.wadi_testimonial_container {
+  background-color: $wadi_secondary_color;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.wadi_testimonial_skin--bubble {
+
+    .wadi_testimonial_review_content {
+        background-color: #e6e9ec;
+        // padding: 20px;
+        position: relative;
+        box-sizing: content-box;
+
+        .wadi_testimonial_text {
+            color: #7A7A7A;
+            padding: 20px;
+        }
+
+        &:after {
+            content: "";
+            display: block;
+            width: 14px;
+            height: 14px;
+            background-color: #e6e9ec;
+            position: absolute;
+            -webkit-transform: scaleX(.75) rotate(45deg);
+            -ms-transform: scaleX(.75) rotate(45deg);
+            transform: scaleX(.75) rotate(45deg);
+            border-width: 0;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+
+        
+    }
+
+    &.wadi_testimonial_layout--image_inline {
+        &.wadi_testimonial_alignment--left {
+            .wadi_testimonial_review_content {
+    
+                &::after{
+                    top: calc(100% - 7px);
+                    left: calc(20px + (50px / 2));
+                }
+            }
+        }
+    
+        &.wadi_testimonial_alignment--center {
+            .wadi_testimonial_review_content {
+    
+                &::after{
+                    top: calc(100% - 7px);;
+                    left: 50%;
+                    transform: translateX(-50%) scaleX(.75) rotate(45deg);
+                }
+            }
+        }
+    
+        &.wadi_testimonial_alignment--right {
+            .wadi_testimonial_review_content {
+    
+                &::after{
+                    top: calc(100% - 7px);;
+                    right: calc(20px + (50px / 2));
+                }
+            }
+        }
+    }
+
+    &.wadi_testimonial_layout--image_stacked {
+      
+      &.wadi_testimonial_alignment--left {
+          .wadi_testimonial_review_content {
+  
+              &::after{
+                  top: calc(100% - 7px);
+                  left: calc(20px + (50px / 2));
+              }
+          }
+      }
+  
+      &.wadi_testimonial_alignment--center {
+          .wadi_testimonial_review_content {
+  
+              &::after{
+                  top: calc(100% - 7px);;
+                  left: 50%;
+                  transform: translateX(-50%) scaleX(.75) rotate(45deg);
+              }
+          }
+      }
+  
+      &.wadi_testimonial_alignment--right {
+          .wadi_testimonial_review_content {
+  
+              &::after{
+                  top: calc(100% - 7px);;
+                  right: calc(20px + (50px / 2));
+              }
+          }
+      }
+  }
+
+    &.wadi_testimonial_layout--image_above{
+        
+        .wadi_testimonial_footer {
+            .wadi_testimonial_cite 
+            {
+                display: flex;
+            }
+        }
+
+        &.wadi_testimonial_alignment--left {
+
+            .wadi_testimonial_review_content {
+    
+                &::after{
+                    left: calc(20px + (50px / 2));
+                    bottom: calc(100% - 7px);
+                    transform: scaleX(.75) rotate(-135deg);
+                }
+            }
+            .wadi_testimonial_cite {
+                justify-content: flex-start;
+            }
+        }
+        &.wadi_testimonial_alignment--center {
+
+            .wadi_testimonial_review_content {
+    
+                &::after{
+                    left: 50%;
+                    transform: translateX(-50%) scaleX(.75) rotate(-135deg);
+                    bottom: calc(100% - 7px);
+                }
+            }
+            .wadi_testimonial_cite {
+                justify-content: center;
+            }
+        }
+        &.wadi_testimonial_alignment--right {
+
+            .wadi_testimonial_review_content {
+    
+                &::after{
+                    right: calc(20px + (50px / 2));
+                    bottom: calc(100% - 7px);
+                    -webkit-transform: scaleX(.75) rotate(-135deg);
+                    -ms-transform: scaleX(.75) rotate(-135deg);
+                    transform: scaleX(.75) rotate(-135deg);
+                }
+            }
+            .wadi_testimonial_cite {
+                justify-content: flex-end;
+            }
+        }
+
+    }
+
+    &.wadi_testimonial_layout--image_left {
+
+        .wadi_testimonial_container {
+
+            .wadi_testimonial_footer {
+                display: block;
+                padding: 20px 20px 0 0;
+                min-width: 150px;
+
+                & .wadi_testimonial_cite, & .wadi_testimonial_image {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+
+        .wadi_testimonial_review_content {
+    
+            &::after{
+                top: calc(20px + (160px / 2));
+                transform: scaleY(.75) rotate(135deg);
+                left: -8px;
+            }
+        }
+
+    }
+
+    &.wadi_testimonial_layout--image_right {
+
+        .wadi_testimonial_container {
+
+            .wadi_testimonial_footer {
+                display: block;
+                padding: 0 0 20px 20px;
+                min-width: 150px;
+                text-align: center;
+
+                & .wadi_testimonial_cite & .wadi_testimonial_image {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+
+        .wadi_testimonial_review_content {
+    
+            &::after{
+                top: calc(20px + (160px / 2));
+                transform: scaleY(.75) rotate(135deg);
+                right: -8px;
+            }
+        }
+
+    }
+}
+
+// .wadi_testimonial_footer {
+//     margin-top: 25px;
+// }
+
+.wadi_testimonial_layout--image_inline {
+
+    .wadi_testimonial_container {
+      position: relative;
+    
+      display: flex;
+      flex-flow: column;
+    
+      .wadi_testimonial_cite {
+        display: inline-flex;
+    
+        .wadi_testimonial_writer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 700;
+        }
+        .wadi_testimonial_organization {
+          // color: brown;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    
+      .wadi_testimonial_footer {
+        display: flex;
+        align-items: center;
+        
+        .wadi_testimonial_image {
+          margin-right: 1rem;
+          // width: 200px;
+          // height: 200px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+
+        .wadi_testimonial_cite {
+
+          .wadi_testimonial_writer {
+            display: flex;
+          align-items: center;
+          justify-content: center;
+            margin-right: 6px;
+          }
+          .wadi_testimonial_cite_separator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 6px;
+          }
+          
+          .wadi_testimonial_organization {
+            margin-left: 6px;
+            display: flex;
+          align-items: center;
+          justify-content: center;
+          }
+        }
+      }
+      // .wadi_testimonial_review_content {
+      //   font-weight: 600;
+      //   color: cornflowerblue;
+      // }
+    }
+
+    &.wadi_testimonial_alignment--left {
+
+        .wadi_testimonial_footer {
+            justify-content: flex-start;
+        }
+    }
+    &.wadi_testimonial_alignment--center {
+
+        .wadi_testimonial_footer {
+            justify-content: center;
+        }
+    }
+    &.wadi_testimonial_alignment--right {
+
+      .wadi_testimonial_footer {
+          .wadi_testimonial_image {
+            margin-left: 1rem;
+            margin-right: 0;
+          }
+
+            justify-content: flex-start;
+            flex-direction: row-reverse;  
+
+        }
+    }
+
+}
+
+.wadi_testimonial_layout--image_stacked {
+
+    .wadi_testimonial_container {
+      position: relative;
+    
+      display: flex;
+      flex-flow: column;
+    
+      .wadi_testimonial_cite {
+        display: inline-flex;
+
+    
+        .wadi_testimonial_writer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 700;
+        }
+        .wadi_testimonial_organization {
+          // color: brown;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    
+      .wadi_testimonial_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .wadi_testimonial_image {
+          // width: 200px;
+          // height: 200px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+
+        .wadi_testimonial_cite {
+
+          .wadi_testimonial_writer {
+            display: flex;
+          align-items: center;
+          justify-content: center;
+            margin-right: 6px;
+          }
+          .wadi_testimonial_cite_separator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 6px;
+          }
+          
+          .wadi_testimonial_organization {
+            margin-left: 6px;
+            display: flex;
+          align-items: center;
+          justify-content: center;
+          }
+        }
+      }
+      // .wadi_testimonial_review_content {
+      //   font-weight: 600;
+      //   color: cornflowerblue;
+      // }
+    }
+
+    &.wadi_testimonial_alignment--left {
+
+        .wadi_testimonial_footer {
+            align-items: flex-start;
+
+        }
+    }
+    &.wadi_testimonial_alignment--center {
+
+        .wadi_testimonial_footer {
+            align-items: center;
+
+        }
+    }
+    &.wadi_testimonial_alignment--right {
+
+        .wadi_testimonial_footer {
+            align-items: flex-end;
+
+        }
+    }
+}
+
+.wadi_testimonial_layout--image_above {
+
+    .wadi_testimonial_container {
+      position: relative;
+    
+      display: flex;
+      flex-flow: column-reverse;
+          
+      .wadi_testimonial_cite {
+        display: inline-flex;
+    
+        .wadi_testimonial_writer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 700;
+          margin-right: 6px;
+        }
+
+        .wadi_testimonial_cite_separator {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 6px;
+        }
+
+        .wadi_testimonial_organization {
+          // color: brown;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 6px;
+        }
+      }
+    
+      .wadi_testimonial_footer {
+        display: flex;
+        flex-direction: column;
+
+        .wadi_testimonial_image {
+          // width: 200px;
+          // height: 200px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+
+      }
+      .wadi_testimonial_review_content {
+        margin-top: 0.8rem;
+      //   font-weight: 600;
+      //   color: cornflowerblue;
+      }
+    }
+
+    &.wadi_testimonial_alignment--left {
+
+        .wadi_testimonial_footer {
+            justify-content: flex-start;
+
+        }
+    }
+    &.wadi_testimonial_alignment--center {
+
+        .wadi_testimonial_footer {
+            justify-content: center;
+
+        }
+    }
+    &.wadi_testimonial_alignment--right {
+
+        .wadi_testimonial_footer {
+            justify-content: flex-end;
+
+        }
+    }
+}
+
+.wadi_testimonial_layout--image_left {
+
+    .wadi_testimonial_container {
+      position: relative;
+    
+      display: flex;
+      flex-flow: row-reverse;
+
+      .wadi_testimonial_cite {
+        display: inline-flex;
+    
+        .wadi_testimonial_writer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 700;
+          margin-right: 6px;
+        }
+
+        .wadi_testimonial_cite_separator{
+          margin: 0 6px;
+        }
+        .wadi_testimonial_organization {
+          // color: brown;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 6px;
+        }
+      }
+    
+      .wadi_testimonial_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        .wadi_testimonial_image {
+          // width: 200px;
+          // height: 200px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+      }
+      // .wadi_testimonial_review_content {
+      //   font-weight: 600;
+      //   color: cornflowerblue;
+      // }
+    }
+}
+
+.wadi_testimonial_layout--image_right {
+
+    .wadi_testimonial_container {
+      position: relative;
+    
+      display: flex;
+      flex-flow: row;
+
+      .wadi_testimonial_cite {
+        display: inline-flex;
+    
+        .wadi_testimonial_writer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 700;
+          margin-right: 6px;
+        }
+        
+        .wadi_testimonial_cite_separator {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 6px;
+        }
+
+        .wadi_testimonial_organization {
+          // color: brown;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 6px;
+        }
+      }
+    
+      .wadi_testimonial_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        
+        .wadi_testimonial_image {
+          // width: 200px;
+          // height: 200px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+      }
+      // .wadi_testimonial_review_content {
+      //   font-weight: 600;
+      //   color: cornflowerblue;
+      // }
+    }
+}

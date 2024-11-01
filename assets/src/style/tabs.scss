@@ -1,0 +1,401 @@
+@import './components/variables';
+
+/**************** wadi Tabs ********************/
+/**************************************************/
+.wadi-tabs-container {
+  .wadi-tabs-section {
+    /*
+      General Styling
+    */
+
+    
+    .wadi-tabs {
+      position: relative;
+      overflow: hidden;
+      margin: 0 auto;
+      width: 100%;
+      border: 1px solid;
+
+      
+      &.wadi-tabs-angle {
+        
+        /*
+          Angle Tabs Horizontal
+        */
+        .wadi-tabs-horizontal {
+
+          .tab-current {
+  
+            .wadi-tab-link {
+              border-bottom: none;
+            }
+    
+            .arrow-down {
+              width: 0;
+              height: 0;
+              border-left: 20px solid transparent;
+              border-right: 20px solid transparent;
+        
+              border-top: 20px solid #f00;
+        
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              margin-left: -10px;
+              width: 0;
+              height: 0;
+              border: solid transparent;
+              border-width: 10px;
+              border-top-color: #2cc185;
+              content: "";
+              pointer-events: none;
+            }
+          }
+        }
+
+         /*
+          Angle Tabs Vertical
+        */
+        .wadi-tabs-vertical {
+
+          .tab-current {
+  
+            .wadi-tab-link {
+              border-right: none;
+            }
+    
+            .arrow-right {
+
+                content: "";
+                border-bottom: 10px solid transparent;
+                border-left: 15px solid #2cc185;
+                border-top: 10px solid transparent;
+                content: "";
+                height: 0;
+                pointer-events: none;
+                position: absolute;
+                right: -15px;
+                top: 38%;
+                width: 0;
+                z-index: 10;
+            }
+          }
+        }
+      }
+
+      
+      // .wadi-tabs-horizontal {
+      //   &.wadi-tabs-angle {
+
+      //     .horizontal {
+
+      //       .wadi-tabs-horizontal {
+
+
+      //       }
+      //     }
+      //   }
+        
+      // }
+
+
+      // Vertical Tabs Styling
+      &.wadi-tabs-vertical {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+      }
+
+      // End Vertical Tabs Styling
+
+      .wadi-tabs-nav {
+        text-align: center;
+
+        .wadi-tabs-nav-list {
+          position: relative;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: flex;
+          margin: 0 auto;
+          padding: 0;
+          max-width: 100%;
+          list-style: none;
+          -ms-box-orient: horizontal;
+          -ms-box-pack: center;
+          -webkit-flex-flow: row wrap;
+          -moz-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          -ms-justify-content: center;
+          justify-content: center;
+
+          &.wadi-tabs-vertical {
+            min-width: 180px;
+
+            & .wadi-tabs-nav-list-item {
+              min-width: 100%;
+            }
+          }
+
+          li {
+            position: relative;
+            z-index: 1;
+            display: block;
+            margin: 0;
+            text-align: center;
+            -webkit-flex: 1;
+            -moz-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            // min-height: 100px;
+
+            .wadi-tab-link {
+              min-height: 100%;
+              background-color: $wadi_primary_color;
+              text-decoration: none;
+              padding: 1.8rem;
+            }
+          }
+        }
+
+        .wadi-tab-link {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: auto;
+          // min-height: 80px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          padding: 10px 0;
+
+          span {
+            vertical-align: middle;
+            font-size: 0.75em;
+          }
+        }
+
+        li.tab-current {
+          a {
+            color: #fff;
+            text-decoration: none;
+
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+
+      .wadi-content-wrap {
+        &.wadi-tabs-vertical {
+          min-width: 66.6%;
+        }
+        .wadi-tabs-content-section {
+          display: none;
+          margin: 0 auto;
+          padding: 1rem;
+          &.content-current {
+            display: block;
+          }
+        }
+      }
+
+      /* Circle Styling */
+      &.wadi-tabs-circle {
+
+        border: none;
+        
+         .wadi-tabs-nav {
+          
+           .wadi-tabs-nav-list {
+
+            li.wadi-tabs-nav-list-item {
+              // background-color: #f00;
+
+              a.wadi-tab-link {
+                background-color: $wadi_primary_color;
+                border-radius: 50%;
+                height: 150px;
+                width: 150px;
+                margin: 0 auto;
+              }
+            }
+            
+          }
+        }
+
+        .wadi-content-wrap {
+          margin-top: 12px;
+          border-right: 1px solid;
+          border-left: 1px solid;
+          border-bottom: 1px solid;
+          border-top: 1px solid;
+        }
+
+      }
+      /* Flip styling */
+      &.wadi-tabs-flip {
+
+        .wadi-tabs-nav.horizontal {
+
+          .wadi-tabs-nav-list {
+
+            .wadi-tab-link {
+              background-color: rgba(128, 128, 128, 0);
+              -webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+              transition: transform 0.3s, background-color 0.3s;
+            }
+
+            .wadi-tab-title {
+              font-weight: 700;
+              line-height: 1;
+              margin: 0;
+              color: #000;
+              vertical-align: middle;
+            }
+            
+            a::after {
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+              width: 100%;
+              height: 100%;
+              content: '';
+              background-color: inherit;
+              -webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+              transition: transform 0.3s, background-color 0.3s;
+              -webkit-transform: perspective(900px) rotate3d(1,0,0,90deg);
+              transform: perspective(900px) rotate3d(1,0,0,90deg);
+              -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+              -webkit-perspective-origin: 50% 100%;
+              perspective-origin: 50% 100%;
+            }
+
+            li.tab-current a::after {
+              -webkit-transform: perspective(900px) rotate3d(1,0,0,0deg);
+              transform: perspective(900px) rotate3d(1,0,0,0deg);
+            }
+
+          }
+
+
+        }
+        .wadi-tabs-nav.vertical {
+
+          .wadi-tabs-nav-list {
+
+            .wadi-tab-link {
+              background-color: rgba(128, 128, 128, 0);
+              -webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+              transition: transform 0.3s, background-color 0.3s;
+            }
+
+            .wadi-tab-title {
+              font-weight: 700;
+              line-height: 1;
+              margin: 0;
+              color: #000;
+              vertical-align: middle;
+            }
+            
+            a::after {
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+              width: 100%;
+              height: 100%;
+              content: '';
+              background-color: inherit;
+              -webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+              transition: transform 0.3s, background-color 0.3s;
+              -webkit-transform: perspective(900px) rotateY(90deg);
+              transform: perspective(900px) rotateY(90deg);
+              -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+              -webkit-perspective-origin: 100% 0%;
+              perspective-origin: 100% 0%;
+            }
+
+            li.tab-current a::after {
+              -webkit-transform: perspective(900px) rotateY(0deg);
+              transform: perspective(900px) rotateY(0deg);
+            }
+
+          }
+
+
+        }
+      }
+
+    }
+
+    /*
+      Wadi Tabs Bar
+    */
+
+    .wadi-tabs-bar {
+      nav {
+        ul {
+          li {
+            a {
+              // margin: 0 2px;
+              background-color: #f7f7f7;
+              color:  lighten($wadi_secondary_color, 10%);
+              transition: background-color 0.1s, color 0.1s;
+
+              &:hover {
+                color: $wadi_secondary_color;
+              }
+
+              span {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 500;
+                font-size: 0.6em;
+              }
+            }
+
+            &.tab-current {
+              > a {
+                background: darken($wadi_secondary_color, 10%);
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.wadi-tabs .wadi-tabs-nav.vertical {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.wadi-tabs .wadi-tabs-nav.vertical .wadi-tabs-nav-list {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column wrap;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+}
+
+.wadi-tabs .wadi-tab-title {
+  vertical-align: middle;
+  margin: 0px;
+  font-weight: 700;
+  line-height: 1;
+}

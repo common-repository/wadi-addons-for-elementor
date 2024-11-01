@@ -1,0 +1,221 @@
+@import './components/variables';
+
+.wadi_blockquote_skin__classic {
+  .wadi_blockquote_container {
+    background-color: $wadi_secondary_color;
+    padding: 24px;
+    border-radius: 16px;
+    .wadi_blockquote_content_wrapper {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.wadi_blockquote_skin__bubble {
+  .wadi_blockquote_container {
+    .wadi_blockquote_content_wrapper {
+      background-color: $wadi_secondary_color;
+      padding: 24px;
+      margin-bottom: 1rem;
+      position: relative;
+
+      &::before {
+        background-color: inherit;
+        content: "\00a0";
+        display: block;
+        height: 16px;
+        width: 16px;
+        position: absolute;
+        bottom: -7.5px;
+        transform: rotate(47deg) skew(5deg);
+        -moz-transform: rotate(47deg) skew(5deg);
+        -ms-transform: rotate(47deg) skew(5deg);
+        -o-transform: rotate(47deg) skew(5deg);
+        -webkit-transform: rotate(47deg) skew(5deg);
+      }
+    }
+  }
+}
+
+.wadi_blockquote_skin__bordered {
+  .wadi_blockquote_container {
+    border-left: 8px solid #ccc;
+    padding-left: 1rem;
+
+    .wadi_blockquote_content_wrapper {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.wadi_blockquote_skin__quotation {
+  .wadi_blockquote_container {
+    &::before {
+      content: "“";
+      font-size: 100px;
+      color: #05050517;
+      font-family: Times New Roman, Times, serif;
+      font-weight: 900;
+      line-height: 1;
+      display: block;
+      height: 0.6em;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+    }
+    &::after {
+      content: ",,";
+      font-size: 100px;
+      color: #05050517;
+      font-family: Times New Roman, Times, serif;
+      font-weight: 900;
+      line-height: 1;
+      display: block;
+      position: absolute;
+      right: 110px;
+      bottom: 24px;
+    }
+    // .wadi_blockquote_content_wrapper {
+
+    // }
+  }
+}
+
+.wadi_blockquote_container {
+  .wadi_blockquote_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .wadi_blockquote_author {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .wadi_blockquote_tweet {
+      // background-color: #1da1f2;
+      // border-radius: 20px;
+      // padding: 0.6rem 1rem;
+      // width: max-content;
+
+      .wadi_blockquote_tweet_link {
+        background-color: #00acee;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .wadi_blockquote_tweet_text {
+          margin: 0 8px;
+        }
+        .wadi_blockquote_tweet_icon {
+          margin: 0 8px;
+        }
+      }
+    }
+  }
+}
+
+html[dir=rtl] {
+  .wadi_blockquote_alignment__left {
+    .wadi_blockquote_footer {
+      flex-direction: row-reverse;
+    }
+
+      
+    &.wadi_blockquote_skin__bubble {
+
+      .wadi_blockquote_content_wrapper {
+
+        &::before {
+          left: 5%;
+          bottom: -5px;
+        }
+
+      }
+
+    }
+  }
+
+  .wadi_blockquote_footer {
+    flex-direction: row;
+  }
+
+  &.wadi_blockquote_skin__bubble {
+
+    .wadi_blockquote_content_wrapper {
+
+      &::before {
+        left: 5%;
+        bottom: -5px;
+      }
+
+    }
+
+  }
+
+}
+
+.wadi_blockquote_alignment__left {
+  .wadi_blockquote_footer {
+    flex-direction: row;
+  }
+  
+  &.wadi_blockquote_skin__bubble {
+
+    .wadi_blockquote_content_wrapper {
+
+      &::before {
+        left: 5%;
+        bottom: -5px;
+      }
+
+    }
+
+  }
+}
+
+.wadi_blockquote_alignment__center {
+  .wadi_blockquote_footer {
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    .wadi_blockquote_tweet {
+      text-align: center;
+      margin: 1rem auto 0;
+    }
+    .wadi_blockquote_author {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  &.wadi_blockquote_skin__bubble {
+
+    .wadi_blockquote_content_wrapper {
+
+      &::before {
+        right: 50%;
+      }
+
+    }
+
+  }
+}
+
+.wadi_blockquote_alignment__right {
+  .wadi_blockquote_footer {
+    flex-direction: row-reverse;
+  }
+
+  &.wadi_blockquote_skin__bubble {
+
+    .wadi_blockquote_content_wrapper {
+
+      &::before {
+        right: 5%;
+        bottom: -5px;
+      }
+
+    }
+
+  }
+}

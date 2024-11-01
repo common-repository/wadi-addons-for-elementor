@@ -1,0 +1,454 @@
+@import "../../../node_modules/swiper/swiper-bundle.css";
+@import './components/variables';
+
+// .wadi_posts_terms_filter {
+
+.wadi_tax_filters {
+  margin-bottom: 2rem;
+}
+.wadi_posts_filters_container {
+  padding: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+
+  .wadi_posts_filter_item {
+    list-style: none;
+
+    .data_filter {
+      padding: 8px 12px;
+      background: $wadi_primary_color;
+      font-size: 1.4rem;
+      color: #fff;
+      margin: 4px;
+
+      &.filter_active {
+        background-color: $wadi_secondary_color;
+        color: #000;
+      }
+    }
+  }
+}
+// }
+
+.wadi_posts_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  .wadi_error_notice{
+    width: 100%;
+  }
+  .wadi_posts_search_box{
+    width: 100%;
+  }
+
+  .wadi_single_post_container {
+    position: relative;
+    float: left;
+    // width: 25%;
+    height: auto;
+  }
+
+  .wadi_featured_image {
+    width: 100%;
+    // min-height: 350px;
+    height: 350px;
+    overflow: hidden;
+
+    img {
+      transition: all 0.3s linear;
+
+      &:hover {
+        transition: all 0.3s linear;
+      }
+    }
+    #wadi_post_image_thumbnail {
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+    }
+  }
+
+
+}
+
+// Classic Skin
+.wadi_posts_skin_classic {
+  .wadi_single_post_container {
+    .wadi_single_bg_wrap{
+      background-color: #f3f3f3;
+    }
+    .wadi_posts_text_content_container {
+      padding: 30px 30px 30px 30px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+
+      .wadi_post_list_categories {
+        order: 1;
+      }
+      
+      .wadi_post_excerpt {
+        order: 2;
+      }
+
+      .wadi_post_read_more_call_to_action {
+        order: 10;
+      }
+
+      .wadi_post_date {
+        order: 3;
+      }
+
+      .wadi_single_post_author{
+        // display: none;
+        margin-right: 6px;
+        .wadi_post_author_avatar {
+          order: 4;
+        }
+  
+        .wadi_post_author_name {
+          order: 5;
+        }
+      }
+
+      .wadi_posts_comments, .wadi_posts_no_comments {
+        order: 6;
+      }
+
+      // Single Post Meta
+      .wadi_single_post_meta {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        .wadi_post_date, .wadi_post_list_categories, .wadi_post_list_tags, .wadi_posts_no_comments, .wadi_posts_comments {
+          display: inline;
+          // font-size: 0.8rem;
+          // margin-right: 6px;
+        }
+      }
+
+    }
+  }
+}
+
+// Cards Skin
+
+.wadi_posts_skin_card {
+  
+  .wadi_single_post_container {
+    .wadi_single_bg_wrap {
+      position: relative;
+      
+      .wadi_inner_post_wrap {
+        background-color: #f3f3f3;
+        display: inline-block;
+        width: 100%;
+
+        &.wadi_post_no_thumbnail_image {
+          padding-top: 65px;
+        }
+
+      }
+
+        .wadi_posts_text_content_container {
+          margin: 0 auto;
+          background-color: #ffffff;
+          padding: 30px 30px 30px 30px;
+          width: 92%;
+          margin-bottom: 15px;
+          position: relative;
+          margin-top: -50px;
+
+      }
+    }
+  }
+}
+
+// Skin Side (Make Image Thumbnail on the side)
+
+.wadi_posts_skin_side {
+  .wadi_single_post_container {
+
+    
+    .wadi_single_bg_wrap {
+      height: 100%;
+      .wadi_inner_post_wrap {
+        background-color: #f3f3f3;
+        display: flex;
+
+        &.wadi_post_no_thumbnail_image {
+          flex-direction: column !important;
+        }
+      }
+      .wadi_featured_image {
+        height: 100%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 50%;
+        margin-bottom: -5px;
+      }
+
+      .wadi_posts_text_content_container {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        .wadi_single_post_meta {
+          order: 1;
+        }
+
+        .wadi_post_excerpt {
+          order: 2;
+        }
+
+        .wadi_post_read_more_call_to_action {
+          order: 10;
+        }
+
+        .wadi_single_post_author{
+          display: none;
+          margin-right: 6px;
+        }
+      }
+    }
+    .wadi_inner_post_wrap {
+      display: flex;
+      height: 100%;
+    }
+  }
+
+
+}
+
+// Single Post Meta
+.wadi_single_post_meta {
+  .wadi_post_date, .wadi_post_list_categories, .wadi_post_list_tags, .wadi_posts_no_comments, .wadi_posts_comments {
+    display: inline;
+    font-size: 0.8rem;
+    margin-right: 6px;
+  }
+}
+
+// Author
+.wadi_single_post_author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8rem;
+  width: 100%;
+  .wadi_author_avatar {
+    margin-right: 8px;
+    img.avatar {
+      border-radius: 50%;
+      height: 60px;
+      width: 60px;
+    }
+  }
+}
+
+.wadi_posts_content_wrapper {
+  .wadi_infinite_loader {
+    color: #000000;
+    font-size: 20px;
+    margin: 100px auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .loader {
+    color: #000000;
+    font-size: 20px;
+    margin: 100px auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  @-webkit-keyframes load4 {
+    0%,
+    100% {
+      box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em,
+        0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+      box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em,
+        0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+      box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0,
+        0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em,
+        0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em,
+        0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em,
+        0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+      box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em,
+        2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em,
+        -2em -2em 0 0;
+    }
+    87.5% {
+      box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em,
+        0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+  }
+  @keyframes load4 {
+    0%,
+    100% {
+      box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em,
+        0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+      box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em,
+        0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+      box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0,
+        0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em,
+        0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em,
+        0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em,
+        0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+      box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em,
+        2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em,
+        -2em -2em 0 0;
+    }
+    87.5% {
+      box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em,
+        0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+  }
+}
+
+/*
+Wadi Posts Carousel Style
+*/
+
+.wadi_carousel_posts_content_wrapper {
+  .wadi_carousel_posts_container {
+    .wadi_inner_post_wrap  {
+      height: 100%;
+      .wadi_featured_image {
+        height: 100%;
+        img#wadi_post_image_thumbnail {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+  
+  .wadi-swiper-button {
+    position: absolute;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .wadi-swiper-button svg {
+    fill: rgba(238, 238, 238, 0.9);
+    height: 1em;
+    width: 1em;
+  }
+  .wadi-posts_carousel_swiper-button-prev {
+    left: 10px;
+  }
+  .wadi-posts_carousel_swiper-button-next {
+    right: 10px;
+  }
+
+  .wadi-swiper-button-vertical {
+    position: absolute;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    &.wadi_carousel_next_vertical {
+      top: 93%;
+      left: 50%;
+      z-index: 99999;
+    }
+    &.wadi_carousel_prev_vertical {
+      top: 7%;
+      left: 50%;
+      z-index: 99999;
+    }
+  }
+  .wadi-swiper-button-vertical svg {
+    fill: rgba(238, 238, 238, 0.9);
+    height: 1em;
+    width: 1em;
+  }
+
+  .swiper-pagination-bullet {
+    opacity: 1;
+  }
+}
+.swiper {
+  // width: 100%;
+  // overflow-x: hidden;
+  // height: 100%;
+}
+
+// Posts Height 100% All posts equal height in rows
+
+.wadi_single_bg_wrap {
+  height: 100%;
+
+  .wadi_inner_post_wrap {
+    overflow: hidden;
+  }
+}

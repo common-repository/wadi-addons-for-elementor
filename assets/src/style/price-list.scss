@@ -1,0 +1,71 @@
+.wadi_pricing_list_container {
+
+    .wadi_pricing_list_item {
+        display: flex;
+        width: 100%;
+
+        .wadi_pricing_list_text {
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            margin-left: 12px;
+
+            .wadi_pricing_list_header {
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+                font-size: 19px;
+                font-weight: 600;
+                margin-bottom: 10px;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+
+                .wadi_pricing_list_title {
+                    // text-decoration: none;
+                }
+
+                
+        
+                .wadi_pricing_list_separator {
+                    -webkit-box-flex: 1;
+                        -ms-flex-positive: 1;
+                            flex-grow: 1;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    border-bottom-style: dotted;
+                    border-bottom-width: 2px;
+                    height: 0;
+                    
+                }
+            }
+            .wadi_pricing_list_description_text {
+                display: flex;
+            }
+
+            .wadi_pricing_list_price_item_wrapper {
+                .wadi_pricing_list_price {
+
+                    &.list_item_has_discount_offer {
+                        text-decoration: line-through;
+                        margin-right: 4px;
+                    }
+                }
+            }
+        }
+
+        .wadi_pricing_list_image {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

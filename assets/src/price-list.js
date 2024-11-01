@@ -1,0 +1,1 @@
+import './style/price-list.scss';

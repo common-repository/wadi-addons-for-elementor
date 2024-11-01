@@ -1,0 +1,3625 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wadi Addons for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-29 19:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Domain: wadi-addons"
+
+#. 1: Plugin name 2: Elementor
+#: includes/class-core-autoloader.php:176
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: includes/class-core-autoloader.php:192
+#: includes/class-core-autoloader.php:218
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:229
+#: widgets/wadi-testimonial-carousel.php:239
+#: widgets/wadi-testimonial-carousel.php:249
+msgid "-"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:132
+msgid "1 Column"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:141
+msgid "10 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:142
+msgid "11 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:143
+msgid "12 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:133
+msgid "2 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:134
+msgid "3 Columns"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:608
+msgid "3D Effect"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:135
+msgid "4 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:136
+msgid "5 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:137
+msgid "6 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:138
+msgid "7 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:139
+msgid "8 Columns"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:140
+msgid "9 Columns"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:281
+msgid "@username"
+msgstr ""
+
+#: widgets/wadi-info-box.php:172
+msgid "Above Content"
+msgstr ""
+
+#: widgets/wadi-accordion.php:34 widgets/wadi-accordion.php:411
+#: admin/elements-list.php:39
+msgid "Accordion"
+msgstr ""
+
+#: widgets/wadi-accordion.php:139 widgets/wadi-accordion.php:140
+msgid "Accordion Content"
+msgstr ""
+
+#: widgets/wadi-accordion.php:172
+msgid "Accordion Item #1"
+msgstr ""
+
+#: widgets/wadi-accordion.php:176
+msgid "Accordion Item #2"
+msgstr ""
+
+#: widgets/wadi-accordion.php:180
+msgid "Accordion Item #3"
+msgstr ""
+
+#: widgets/wadi-accordion.php:358
+msgid "Accordion On Load Toggle"
+msgstr ""
+
+#: widgets/wadi-tabs.php:437
+msgid "Accordion On Small Screens"
+msgstr ""
+
+#: widgets/wadi-accordion.php:300
+msgid "Accordion Title Alignment"
+msgstr ""
+
+#: widgets/wadi-accordion.php:649 widgets/wadi-accordion.php:663
+msgid "Accordion Title Focus"
+msgstr ""
+
+#: widgets/wadi-accordion.php:345
+msgid "Accordion Toggle"
+msgstr ""
+
+#: widgets/wadi-accordion.php:167
+msgid "Accordions Items"
+msgstr ""
+
+#: admin/wadi-notices.php:84
+msgid "Activate Now"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:127
+msgid "Activate Type"
+msgstr ""
+
+#: widgets/wadi-accordion.php:582 widgets/wadi-image-accordion.php:889
+#: widgets/wadi-tabs.php:705 widgets/wadi-gallery-grid.php:895
+msgid "Active"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:512
+msgid "Active Category"
+msgstr ""
+
+#: widgets/wadi-accordion.php:781 widgets/wadi-testimonial-carousel.php:1336
+#: widgets/wadi-tabs.php:845
+msgid "Active Color"
+msgstr ""
+
+#: widgets/wadi-accordion.php:221
+msgid "Active Icon"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:693
+msgid "Active Image Size"
+msgstr ""
+
+#: widgets/wadi-accordion.php:371 widgets/wadi-image-accordion.php:656
+msgid "Active Index"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:235 widgets/wadi-flip-box.php:420
+msgid "Add description here"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:363
+msgid ""
+"Add extra class name that will be applied to the grid container, and you can "
+"use this class for your customizations."
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:484
+msgid ""
+"Add label names for instance: Nature, Birds or any category name that fit "
+"for some of your media"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:117
+msgid "Addons"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:726 widgets/wadi-lottie-animation.php:840
+#: widgets/wadi-info-box.php:1347 widgets/wadi-modal.php:1064
+msgid "Advanced Border Radius"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:562 widgets/wadi-dual-heading.php:770
+msgid "Advanced Styling"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:229 widgets/wadi-info-box.php:824
+#: widgets/wadi-tabs.php:271
+msgid "After"
+msgstr ""
+
+#: widgets/wadi-info-box.php:629
+msgid "After Description"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:179
+msgid "After Image"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:213
+msgid "After Image Label"
+msgstr ""
+
+#: widgets/wadi-info-box.php:626
+msgid "After Media"
+msgstr ""
+
+#: widgets/wadi-info-box.php:627
+msgid "After Prefix"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:127
+msgid "After Text"
+msgstr ""
+
+#: widgets/wadi-info-box.php:628
+msgid "After Title"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:284 widgets/wadi-content-toggle.php:359
+#: widgets/wadi-fancy-text.php:842 widgets/wadi-lottie-animation.php:163
+#: widgets/wadi-lottie-animation.php:996 widgets/wadi-info-box.php:944
+#: widgets/wadi-info-box.php:1428 widgets/wadi-testimonial.php:158
+#: widgets/wadi-testimonial-carousel.php:315 widgets/wadi-modal.php:576
+#: widgets/wadi-modal.php:702 widgets/wadi-modal.php:741
+#: widgets/wadi-modal.php:807
+msgid "Alignment"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:465
+msgid "All"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:135 widgets/wadi-fancy-text.php:628
+msgid "Animate"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:668
+msgid "Animate Delay"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:645
+msgid "Animate Duration"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:147
+msgid "Animate Effect"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:746
+msgid "Animate Repeat"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:589 widgets/wadi-dual-heading.php:796
+msgid "Animated Background"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:242
+msgid "Animated Text"
+msgstr ""
+
+#: widgets/wadi-tabs.php:471 widgets/wadi-modal.php:972
+msgid "Animation Duration"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:559
+msgid "Animation Pause"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:763
+msgid "Animation Speed"
+msgstr ""
+
+#: widgets/wadi-tabs.php:449
+msgid "Apply Accrodion On"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:729 widgets/wadi-lottie-animation.php:842
+#: widgets/wadi-info-box.php:1349 widgets/wadi-modal.php:1066
+msgid "Apply custom radius values. Get the radius value from "
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:546
+#: widgets/wadi-testimonial-carousel.php:1200
+msgid "Arrows"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:175
+msgid "Author"
+msgstr ""
+
+#: widgets/wadi-info-box.php:223 widgets/wadi-image-accordion.php:179
+#: widgets/wadi-tabs.php:341 widgets/wadi-gallery-grid.php:375
+msgid "Auto"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:407
+msgid "Autoplay"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:421
+msgid "Autoplay Delay"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:422
+msgid "Autoplay delay between slides in milliseconds. Default: 1000"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:276 widgets/wadi-flip-box.php:1272
+msgid "Back"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:462
+msgid "Back Delay"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:321
+msgid "Back Speed"
+msgstr ""
+
+#: widgets/wadi-price-list.php:916 widgets/wadi-price-list.php:954
+#: widgets/wadi-dual-heading.php:448 widgets/wadi-dual-heading.php:656
+#: widgets/wadi-content-toggle.php:410 widgets/wadi-content-toggle.php:956
+#: widgets/wadi-content-toggle.php:1005 widgets/wadi-content-toggle.php:1125
+#: widgets/wadi-flip-box.php:253 widgets/wadi-flip-box.php:535
+#: widgets/wadi-flip-box.php:1826 widgets/wadi-fancy-text.php:970
+#: widgets/wadi-fancy-text.php:1058 widgets/wadi-fancy-text.php:1157
+#: widgets/wadi-blockquote.php:365 widgets/wadi-blockquote.php:459
+#: widgets/wadi-blockquote.php:610 widgets/wadi-blockquote.php:648
+#: widgets/wadi-info-box.php:996 widgets/wadi-info-box.php:1269
+#: widgets/wadi-info-box.php:1474 widgets/wadi-image-accordion.php:1353
+#: widgets/wadi-testimonial.php:361 widgets/wadi-testimonial.php:505
+#: widgets/wadi-testimonial.php:700 widgets/wadi-gallery-grid.php:616
+#: widgets/wadi-gallery-grid.php:796 widgets/wadi-gallery-grid.php:855
+#: widgets/wadi-gallery-grid.php:915 widgets/wadi-gallery-grid.php:1002
+msgid "Background"
+msgstr ""
+
+#: widgets/wadi-price-list.php:528 widgets/wadi-price-list.php:565
+#: widgets/wadi-lottie-animation.php:720 widgets/wadi-lottie-animation.php:772
+#: widgets/wadi-lottie-animation.php:908 widgets/wadi-image-comparison.php:513
+#: widgets/wadi-image-comparison.php:621 widgets/wadi-image-comparison.php:729
+#: widgets/wadi-info-box.php:1663 widgets/wadi-accordion.php:485
+#: widgets/wadi-accordion.php:537 widgets/wadi-accordion.php:589
+#: widgets/wadi-accordion.php:847 widgets/wadi-accordion.php:881
+#: widgets/wadi-testimonial-carousel.php:666
+#: widgets/wadi-testimonial-carousel.php:786
+#: widgets/wadi-testimonial-carousel.php:1368 widgets/wadi-tabs.php:515
+#: widgets/wadi-tabs.php:614 widgets/wadi-tabs.php:712
+#: widgets/wadi-tabs.php:1076 widgets/wadi-tabs.php:1159
+#: widgets/wadi-modal.php:999 widgets/wadi-modal.php:1153
+#: widgets/wadi-modal.php:1276 widgets/wadi-modal.php:1414
+#: widgets/wadi-modal.php:1479
+msgid "Background Color"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:203 widgets/wadi-dual-heading.php:829
+msgid "Background Text"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:753 widgets/wadi-content-toggle.php:844
+msgid "Backoground Color"
+msgstr ""
+
+#: widgets/wadi-tabs.php:324
+msgid "Bar (Classic)"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:109
+msgid "Basic"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:164 widgets/wadi-info-box.php:820
+#: widgets/wadi-tabs.php:269
+msgid "Before"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:115
+msgid "Before Image"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:148
+msgid "Before Image Label"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:103
+msgid "Before Text"
+msgstr ""
+
+#: widgets/wadi-info-box.php:173
+msgid "Below Content"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:36 admin/elements-list.php:95
+msgid "Blockquote"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:530
+msgid "Blockquote Author"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:329
+msgid "Blockquote Box"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:448
+msgid "Blockquote Container"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:337
+msgid "Blockquote Content"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:522
+msgid "Blockquote Footer"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:570
+msgid "Blockquote Tweet"
+msgstr ""
+
+#: widgets/wadi-price-list.php:926 widgets/wadi-dual-heading.php:458
+#: widgets/wadi-dual-heading.php:666 widgets/wadi-content-toggle.php:422
+#: widgets/wadi-content-toggle.php:765 widgets/wadi-content-toggle.php:856
+#: widgets/wadi-content-toggle.php:1136 widgets/wadi-flip-box.php:703
+#: widgets/wadi-flip-box.php:849 widgets/wadi-flip-box.php:954
+#: widgets/wadi-flip-box.php:1111 widgets/wadi-flip-box.php:1363
+#: widgets/wadi-flip-box.php:1468 widgets/wadi-flip-box.php:1625
+#: widgets/wadi-flip-box.php:1842 widgets/wadi-fancy-text.php:994
+#: widgets/wadi-fancy-text.php:1082 widgets/wadi-fancy-text.php:1187
+#: widgets/wadi-blockquote.php:387 widgets/wadi-blockquote.php:469
+#: widgets/wadi-image-comparison.php:415 widgets/wadi-image-comparison.php:528
+#: widgets/wadi-image-comparison.php:636 widgets/wadi-image-comparison.php:744
+#: widgets/wadi-info-box.php:1006 widgets/wadi-info-box.php:1327
+#: widgets/wadi-info-box.php:1519 widgets/wadi-info-box.php:1700
+#: widgets/wadi-testimonial.php:538 widgets/wadi-testimonial.php:710
+#: widgets/wadi-testimonial-carousel.php:730
+#: widgets/wadi-testimonial-carousel.php:823
+#: widgets/wadi-testimonial-carousel.php:1177
+#: widgets/wadi-testimonial-carousel.php:1467 widgets/wadi-gallery-grid.php:626
+#: widgets/wadi-gallery-grid.php:692 widgets/wadi-gallery-grid.php:806
+#: widgets/wadi-gallery-grid.php:865 widgets/wadi-gallery-grid.php:925
+#: widgets/wadi-modal.php:1011 widgets/wadi-modal.php:1168
+#: widgets/wadi-modal.php:1291 widgets/wadi-modal.php:1429
+#: widgets/wadi-modal.php:1494
+msgid "Border"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:1521
+msgid "Border Color"
+msgstr ""
+
+#: widgets/wadi-price-list.php:963
+msgid "Border Hover"
+msgstr ""
+
+#: widgets/wadi-price-list.php:581 widgets/wadi-price-list.php:984
+#: widgets/wadi-price-list.php:1048 widgets/wadi-dual-heading.php:466
+#: widgets/wadi-dual-heading.php:674 widgets/wadi-content-toggle.php:430
+#: widgets/wadi-content-toggle.php:773 widgets/wadi-content-toggle.php:864
+#: widgets/wadi-content-toggle.php:975 widgets/wadi-content-toggle.php:1024
+#: widgets/wadi-content-toggle.php:1144 widgets/wadi-flip-box.php:711
+#: widgets/wadi-flip-box.php:736 widgets/wadi-flip-box.php:965
+#: widgets/wadi-flip-box.php:1122 widgets/wadi-flip-box.php:1479
+#: widgets/wadi-flip-box.php:1636 widgets/wadi-flip-box.php:1855
+#: widgets/wadi-fancy-text.php:1003 widgets/wadi-fancy-text.php:1091
+#: widgets/wadi-fancy-text.php:1199 widgets/wadi-lottie-animation.php:828
+#: widgets/wadi-lottie-animation.php:849 widgets/wadi-lottie-animation.php:979
+#: widgets/wadi-blockquote.php:398 widgets/wadi-blockquote.php:508
+#: widgets/wadi-blockquote.php:678 widgets/wadi-image-comparison.php:425
+#: widgets/wadi-image-comparison.php:538 widgets/wadi-image-comparison.php:646
+#: widgets/wadi-image-comparison.php:754 widgets/wadi-info-box.php:1023
+#: widgets/wadi-info-box.php:1335 widgets/wadi-info-box.php:1356
+#: widgets/wadi-info-box.php:1544 widgets/wadi-info-box.php:1680
+#: widgets/wadi-image-accordion.php:1015 widgets/wadi-image-accordion.php:1160
+#: widgets/wadi-image-accordion.php:1288 widgets/wadi-image-accordion.php:1409
+#: widgets/wadi-image-accordion.php:1538 widgets/wadi-testimonial.php:394
+#: widgets/wadi-testimonial.php:546 widgets/wadi-testimonial.php:718
+#: widgets/wadi-testimonial-carousel.php:678
+#: widgets/wadi-testimonial-carousel.php:835
+#: widgets/wadi-testimonial-carousel.php:1141
+#: widgets/wadi-testimonial-carousel.php:1429 widgets/wadi-tabs.php:555
+#: widgets/wadi-tabs.php:654 widgets/wadi-tabs.php:758
+#: widgets/wadi-tabs.php:872 widgets/wadi-tabs.php:1002
+#: widgets/wadi-tabs.php:1095 widgets/wadi-tabs.php:1178
+#: widgets/wadi-gallery-grid.php:634 widgets/wadi-gallery-grid.php:700
+#: widgets/wadi-gallery-grid.php:814 widgets/wadi-gallery-grid.php:873
+#: widgets/wadi-gallery-grid.php:933 widgets/wadi-modal.php:1019
+#: widgets/wadi-modal.php:1073 widgets/wadi-modal.php:1179
+#: widgets/wadi-modal.php:1302 widgets/wadi-modal.php:1440
+#: widgets/wadi-modal.php:1505
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/wadi-accordion.php:420 widgets/wadi-accordion.php:462
+#: widgets/wadi-accordion.php:923
+msgid "Border Type"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:1488
+msgid "Border Width"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:107
+msgid "Bordered"
+msgstr ""
+
+#: widgets/wadi-price-list.php:374 widgets/wadi-flip-box.php:830
+#: widgets/wadi-flip-box.php:1344 widgets/wadi-lottie-animation.php:431
+#: widgets/wadi-info-box.php:971 widgets/wadi-tabs.php:405
+msgid "Bottom"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:241
+msgid "Bottom Center"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:242
+msgid "Bottom Left"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:243
+msgid "Bottom Right"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:595
+msgid "Bottom to Top"
+msgstr ""
+
+#: widgets/wadi-modal.php:960
+msgid "Bounce in Right"
+msgstr ""
+
+#: widgets/wadi-modal.php:959
+msgid "Bounce in Top"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:193
+msgid "Box"
+msgstr ""
+
+#: widgets/wadi-price-list.php:935 widgets/wadi-content-toggle.php:463
+#: widgets/wadi-content-toggle.php:786 widgets/wadi-content-toggle.php:877
+#: widgets/wadi-content-toggle.php:1176 widgets/wadi-image-comparison.php:440
+#: widgets/wadi-image-comparison.php:553 widgets/wadi-image-comparison.php:662
+#: widgets/wadi-image-comparison.php:768 widgets/wadi-info-box.php:1015
+#: widgets/wadi-info-box.php:1318 widgets/wadi-info-box.php:1532
+#: widgets/wadi-accordion.php:429 widgets/wadi-image-accordion.php:989
+#: widgets/wadi-image-accordion.php:1134 widgets/wadi-image-accordion.php:1263
+#: widgets/wadi-image-accordion.php:1552 widgets/wadi-testimonial.php:731
+#: widgets/wadi-testimonial-carousel.php:741 widgets/wadi-tabs.php:1117
+#: widgets/wadi-tabs.php:1191 widgets/wadi-gallery-grid.php:647
+#: widgets/wadi-gallery-grid.php:713 widgets/wadi-gallery-grid.php:827
+#: widgets/wadi-gallery-grid.php:886 widgets/wadi-gallery-grid.php:946
+#: widgets/wadi-modal.php:1032 widgets/wadi-modal.php:1195
+#: widgets/wadi-modal.php:1318 widgets/wadi-modal.php:1529
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/wadi-price-list.php:972
+msgid "Box Shadow Hover"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:197
+msgid "Brackets"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:211
+msgid "Brackets Positions"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:106 widgets/wadi-testimonial.php:109
+#: widgets/wadi-testimonial-carousel.php:265
+#: widgets/wadi-testimonial-carousel.php:1357
+msgid "Bubble"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:640
+msgid "Bullets"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:451 widgets/wadi-flip-box.php:1783
+#: widgets/wadi-modal.php:524
+msgid "Button"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:1809
+msgid "Button Color"
+msgstr ""
+
+#: widgets/wadi-modal.php:628 widgets/wadi-modal.php:643
+msgid "Button Icon"
+msgstr ""
+
+#: widgets/wadi-modal.php:671
+msgid "Button Icon Position"
+msgstr ""
+
+#: widgets/wadi-modal.php:614
+msgid "Button Text"
+msgstr ""
+
+#: widgets/wadi-modal.php:1399 widgets/wadi-modal.php:1465
+msgid "Button Text Color"
+msgstr ""
+
+#: widgets/wadi-info-box.php:768 widgets/wadi-info-box.php:777
+#: widgets/wadi-info-box.php:1397
+msgid "Call To Action"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:584
+msgid "Canvas"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:201 widgets/wadi-lottie-animation.php:882
+msgid "Caption"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:195
+msgid "Caption Type"
+msgstr ""
+
+#: admin/elements-list.php:86
+msgid "Carousel"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:443 widgets/wadi-gallery-grid.php:491
+#: widgets/wadi-gallery-grid.php:765
+msgid "Categories"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:993
+msgid "Categories Container"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:451
+msgid "Categories Filter"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:496
+msgid "Category 1"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:499
+msgid "Category 2"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:481
+msgid "Category Label"
+msgstr ""
+
+#: widgets/wadi-price-list.php:324 widgets/wadi-price-list.php:370
+#: widgets/wadi-price-list.php:404 widgets/wadi-dual-heading.php:267
+#: widgets/wadi-content-toggle.php:343 widgets/wadi-flip-box.php:783
+#: widgets/wadi-flip-box.php:1298 widgets/wadi-fancy-text.php:824
+#: widgets/wadi-lottie-animation.php:171 widgets/wadi-lottie-animation.php:1005
+#: widgets/wadi-blockquote.php:123 widgets/wadi-info-box.php:926
+#: widgets/wadi-info-box.php:1412 widgets/wadi-accordion.php:283
+#: widgets/wadi-testimonial.php:141 widgets/wadi-testimonial-carousel.php:298
+#: widgets/wadi-tabs.php:362 widgets/wadi-tabs.php:401
+#: widgets/wadi-gallery-grid.php:391 widgets/wadi-gallery-grid.php:552
+#: widgets/wadi-modal.php:584 widgets/wadi-modal.php:710
+#: widgets/wadi-modal.php:749 widgets/wadi-modal.php:815
+msgid "Center"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:235
+msgid "Center Center"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:236
+msgid "Center Left"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:237
+msgid "Center Right"
+msgstr ""
+
+#: admin/elements-list.php:170
+msgid "Charts"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:178 widgets/wadi-flip-box.php:363
+#: widgets/wadi-info-box.php:310 widgets/wadi-image-accordion.php:363
+msgid "Choose Icon"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:148 widgets/wadi-flip-box.php:333
+#: widgets/wadi-info-box.php:187
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:392
+msgid "Choose on what breakpoint the heading will stack."
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:192 widgets/wadi-tabs.php:326
+msgid "Circle"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:105
+msgid "Classic"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:276 widgets/wadi-image-accordion.php:131
+msgid "Click"
+msgstr ""
+
+#: widgets/wadi-modal.php:616 widgets/wadi-modal.php:617
+msgid "Click Here"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:155
+msgid "Clip"
+msgstr ""
+
+#: widgets/wadi-modal.php:228 widgets/wadi-modal.php:229
+msgid "Close"
+msgstr ""
+
+#: widgets/wadi-modal.php:226
+msgid "Close Button Text"
+msgstr ""
+
+#: widgets/wadi-modal.php:376
+msgid "Close Icon"
+msgstr ""
+
+#: widgets/wadi-modal.php:452
+msgid "Close Icon Color"
+msgstr ""
+
+#: widgets/wadi-modal.php:404
+msgid "Close Icon Size"
+msgstr ""
+
+#: widgets/wadi-modal.php:352
+msgid "Close Modal"
+msgstr ""
+
+#: widgets/wadi-modal.php:480
+msgid "Close on Esc"
+msgstr ""
+
+#: widgets/wadi-modal.php:493
+msgid "Close on Overlay"
+msgstr ""
+
+#: widgets/wadi-price-list.php:514 widgets/wadi-price-list.php:550
+#: widgets/wadi-price-list.php:628 widgets/wadi-price-list.php:696
+#: widgets/wadi-price-list.php:795 widgets/wadi-dual-heading.php:954
+#: widgets/wadi-fancy-text.php:947 widgets/wadi-fancy-text.php:1035
+#: widgets/wadi-fancy-text.php:1128 widgets/wadi-lottie-animation.php:893
+#: widgets/wadi-blockquote.php:345 widgets/wadi-blockquote.php:538
+#: widgets/wadi-image-comparison.php:488 widgets/wadi-image-comparison.php:597
+#: widgets/wadi-image-comparison.php:816 widgets/wadi-info-box.php:1458
+#: widgets/wadi-info-box.php:1608 widgets/wadi-accordion.php:497
+#: widgets/wadi-accordion.php:549 widgets/wadi-accordion.php:601
+#: widgets/wadi-accordion.php:674 widgets/wadi-accordion.php:757
+#: widgets/wadi-image-accordion.php:1340 widgets/wadi-testimonial.php:348
+#: widgets/wadi-testimonial.php:568 widgets/wadi-testimonial.php:606
+#: widgets/wadi-testimonial.php:661 widgets/wadi-testimonial-carousel.php:774
+#: widgets/wadi-testimonial-carousel.php:891
+#: widgets/wadi-testimonial-carousel.php:950
+#: widgets/wadi-testimonial-carousel.php:1000
+#: widgets/wadi-testimonial-carousel.php:1249
+#: widgets/wadi-testimonial-carousel.php:1319 widgets/wadi-tabs.php:823
+#: widgets/wadi-tabs.php:1065 widgets/wadi-gallery-grid.php:784
+#: widgets/wadi-gallery-grid.php:843 widgets/wadi-gallery-grid.php:903
+#: widgets/wadi-modal.php:1584 widgets/wadi-modal.php:1636
+msgid "Color"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:336
+msgid "Column"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:128
+msgid "Columns"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:321
+msgid "Compass Handle"
+msgstr ""
+
+#: widgets/wadi-price-list.php:755
+msgid "Connecter"
+msgstr ""
+
+#: widgets/wadi-info-box.php:222 widgets/wadi-image-accordion.php:180
+#: widgets/wadi-gallery-grid.php:374
+msgid "Contain"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:1116 widgets/wadi-lottie-animation.php:335
+#: widgets/wadi-image-comparison.php:404 widgets/wadi-testimonial.php:691
+#: widgets/wadi-tabs.php:1151 widgets/wadi-gallery-grid.php:607
+msgid "Container"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:1493
+msgid "Container Height"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:1458
+msgid "Container Width"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:148 widgets/wadi-content-toggle.php:219
+#: widgets/wadi-content-toggle.php:904 widgets/wadi-flip-box.php:289
+#: widgets/wadi-blockquote.php:94 widgets/wadi-blockquote.php:163
+#: widgets/wadi-info-box.php:73 widgets/wadi-info-box.php:1069
+#: widgets/wadi-accordion.php:138 widgets/wadi-accordion.php:819
+#: widgets/wadi-image-accordion.php:275 widgets/wadi-image-accordion.php:318
+#: widgets/wadi-image-accordion.php:1053 widgets/wadi-testimonial.php:309
+#: widgets/wadi-testimonial-carousel.php:140
+#: widgets/wadi-testimonial-carousel.php:766 widgets/wadi-tabs.php:211
+#: widgets/wadi-gallery-grid.php:191 widgets/wadi-gallery-grid.php:682
+#: widgets/wadi-modal.php:170
+msgid "Content"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:140
+msgid "Content #1"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:211
+msgid "Content #2"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:117 widgets/wadi-content-toggle.php:948
+msgid "Content 1"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:175
+msgid "Content 1 Anchor"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:188 widgets/wadi-content-toggle.php:997
+msgid "Content 2"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:246
+msgid "Content 2 Anchor"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:140
+msgid "Content Alignment"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:931
+msgid "Content Background Color"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:920
+msgid "Content Color"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1199 widgets/wadi-image-accordion.php:912
+msgid "Content Container"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1235
+msgid "Content Container Margin"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1246
+msgid "Content Container Padding"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:267
+msgid "Content Display"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:967
+msgid "Content height"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:943
+msgid "Content Hover Background Color"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:431
+msgid "Content Link"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:447
+msgid "Content Link Text"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:317
+msgid "Content Size"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:35 admin/elements-list.php:151
+msgid "Content Toggle"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:125 widgets/wadi-content-toggle.php:196
+#: widgets/wadi-accordion.php:125 widgets/wadi-image-accordion.php:302
+#: widgets/wadi-tabs.php:198 widgets/wadi-modal.php:140
+msgid "Content Type"
+msgstr ""
+
+#: widgets/wadi-tabs.php:393
+msgid "Content Vertical Alignment"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:955
+msgid "Content Width"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:177
+msgid "content-1"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:248
+msgid "content-2"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:568
+msgid "Controller Color"
+msgstr ""
+
+#: widgets/wadi-info-box.php:221 widgets/wadi-image-accordion.php:181
+#: widgets/wadi-gallery-grid.php:373
+msgid "Cover"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:196
+msgid "Crossed Off"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:745
+msgid "CSS Filters"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:754
+msgid "CSS Filters Hover"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:294
+msgid "Current Page"
+msgstr ""
+
+#: includes/class-wadi-queries.php:1216
+msgid ""
+"Current query has no items. Please make sure you have published items "
+"matching your query."
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:422
+msgid "Cursor"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:843 widgets/wadi-lottie-animation.php:202
+#: widgets/wadi-image-accordion.php:182
+msgid "Custom"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:211 widgets/wadi-lottie-animation.php:214
+msgid "Custom Caption"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:295
+msgid "Custom Page"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:483
+msgid "Custom Position"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:253
+msgid "Custom URL"
+msgstr ""
+
+#: widgets/wadi-price-list.php:306 widgets/wadi-info-box.php:645
+#: widgets/wadi-accordion.php:713
+msgid "Dashed"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:141
+msgid "Deactivate Outside"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:143
+msgid ""
+"Deactivate outside is when on click you click outside it will deactivate the "
+"accordion, or on mouse leave it will return back ti its first state."
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:353 widgets/wadi-testimonial.php:108
+#: widgets/wadi-testimonial-carousel.php:264
+msgid "Default"
+msgstr ""
+
+#: widgets/wadi-info-box.php:108
+msgid "Default description"
+msgstr ""
+
+#: widgets/wadi-tabs.php:284
+msgid "Default Tab Index"
+msgstr ""
+
+#: widgets/wadi-info-box.php:95
+msgid "Default title"
+msgstr ""
+
+#: widgets/wadi-modal.php:904
+msgid "Delay"
+msgstr ""
+
+#: widgets/wadi-modal.php:906
+msgid "Delay in Milliseconds, every 1000 Milliseconds equals one [1] second"
+msgstr ""
+
+#: widgets/wadi-price-list.php:105 widgets/wadi-price-list.php:619
+#: widgets/wadi-flip-box.php:233 widgets/wadi-flip-box.php:418
+#: widgets/wadi-flip-box.php:1203 widgets/wadi-flip-box.php:1717
+#: widgets/wadi-info-box.php:106 widgets/wadi-tabs.php:1049
+msgid "Description"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:1241 widgets/wadi-flip-box.php:1755
+msgid "Description Color"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:206 widgets/wadi-flip-box.php:391
+msgid "Description Element"
+msgstr ""
+
+#: widgets/wadi-price-list.php:662
+msgid "Description Margin"
+msgstr ""
+
+#: widgets/wadi-price-list.php:674
+msgid "Description Padding"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:1215 widgets/wadi-flip-box.php:1729
+msgid "Description Spacing"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:341 widgets/wadi-content-toggle.php:396
+msgid "Desktop"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:244
+msgid ""
+"Developer\n"
+"Designer\n"
+"Creator\n"
+"Builder"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:716
+msgid "Direction"
+msgstr ""
+
+#: admin/templates/widgets.php:35
+msgid "Disable Elements"
+msgstr ""
+
+#: admin/templates/widgets.php:37
+msgid "Disable Unused Widgets"
+msgstr ""
+
+#: widgets/wadi-modal.php:1625
+msgid "Display Icon Style"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:245 widgets/wadi-accordion.php:268
+#: widgets/wadi-tabs.php:297
+msgid "Display Options"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:632
+msgid "Display Settings"
+msgstr ""
+
+#: widgets/wadi-modal.php:1573
+msgid "Display Text Style"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:328
+msgid "Display Type Inline or Block"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1094 widgets/wadi-info-box.php:1156
+msgid "div"
+msgstr ""
+
+#: admin/templates/widgets.php:90
+msgid "Docs"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:212
+msgid ""
+"Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel "
+"augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus "
+"sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. "
+"Donec id elit non mi porta gravida at eget metus."
+msgstr ""
+
+#: widgets/wadi-price-list.php:305 widgets/wadi-info-box.php:646
+#: widgets/wadi-accordion.php:714
+msgid "Dotted"
+msgstr ""
+
+#: widgets/wadi-price-list.php:307 widgets/wadi-info-box.php:647
+#: widgets/wadi-accordion.php:715
+msgid "Double"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:289 widgets/wadi-image-comparison.php:703
+msgid "Drag Compass"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:157
+msgid "Drop In"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:35 admin/elements-list.php:161
+msgid "Dual Heading"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:398
+msgid "Dual Heading Styling"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:460
+msgid "Duration of transition between slides (in ms)"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:589
+msgid "Effects Direction"
+msgstr ""
+
+#: includes/class-core-autoloader.php:178
+#: includes/class-core-autoloader.php:194
+msgid "Elementor"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:129 widgets/wadi-content-toggle.php:200
+#: widgets/wadi-accordion.php:129 widgets/wadi-accordion.php:153
+#: widgets/wadi-image-accordion.php:306 widgets/wadi-tabs.php:202
+#: widgets/wadi-tabs.php:225 widgets/wadi-modal.php:145
+msgid "Elementor Template"
+msgstr ""
+
+#: widgets/wadi-accordion.php:154 widgets/wadi-tabs.php:226
+msgid ""
+"Elementor Template is a template which you can choose from Elementor library."
+" Each template will be shown in content"
+msgstr ""
+
+#: admin/templates/general.php:56
+msgid "Email"
+msgstr ""
+
+#: includes/class-wadi-queries.php:129
+msgid "Empty Post Type."
+msgstr ""
+
+#: admin/templates/widgets.php:34
+msgid "Enable Elements"
+msgstr ""
+
+#: widgets/wadi-accordion.php:252
+msgid "Enable FAQ Schema"
+msgstr ""
+
+#: widgets/wadi-tabs.php:439
+msgid ""
+"Enable this option to improve responsive behavior by changing the tabs "
+"layout to act as an accordtion"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:522
+msgid "Enable to lazyload the testimonial carousel."
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:445
+msgid "Enable to loop the carousel."
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:479
+msgid "Enable to pause the carousel on hover."
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:509
+msgid "Enable to play the carousel on mousewheel."
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:494
+msgid "Enable to reverse the carousel direction."
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:408
+msgid "Enables autoplay mode."
+msgstr ""
+
+#: widgets/wadi-flip-box.php:236 widgets/wadi-flip-box.php:421
+msgid "Enter Description"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:147
+msgid "Enter Testimonial Content"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:133
+msgid "Enter Testimonial Title"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:172
+msgid "Enter the author name of the testimonial"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:197
+msgid "Enter the organization name of the testimonial"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:220 widgets/wadi-flip-box.php:405
+msgid "Enter Title"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:282
+msgid "Enter your video link"
+msgstr ""
+
+#: widgets/wadi-modal.php:920 widgets/wadi-modal.php:933
+msgid "Entrance Animation"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:117
+msgid "Even"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:154 widgets/wadi-dual-heading.php:188
+#: widgets/wadi-flip-box.php:468 widgets/wadi-flip-box.php:519
+#: widgets/wadi-image-accordion.php:402 widgets/wadi-image-accordion.php:416
+msgid "Existing Page"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:124
+msgid "External URL File"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:360
+msgid "Extra Class"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:579
+msgid "Fade"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:485
+msgid "Fade Out"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:36 widgets/wadi-fancy-text.php:122
+#: widgets/wadi-fancy-text.php:939 admin/elements-list.php:239
+msgid "Fancy Text"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:131
+msgid "Fancy Text Style"
+msgstr ""
+
+#: widgets/wadi-tabs.php:475
+msgid "Fast"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:574 widgets/wadi-dual-heading.php:782
+msgid "Fill Background"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:525
+msgid "Filter URL Parameter"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:569
+msgid "Filters Alignment"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:463
+msgid "First Category"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:480
+msgid "First Label"
+msgstr ""
+
+#: widgets/wadi-tabs.php:342 widgets/wadi-modal.php:255
+msgid "Fixed"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:574 widgets/wadi-tabs.php:327
+msgid "Flip"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:39 admin/elements-list.php:76
+msgid "Flip Box"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:507
+msgid "Flip Box Button"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:571
+msgid "Flip Effects"
+msgstr ""
+
+#: widgets/wadi-modal.php:945
+msgid "Flip in Diagonal 2 Bottom Right"
+msgstr ""
+
+#: widgets/wadi-modal.php:946
+msgid "Flip in Vertical Left"
+msgstr ""
+
+#: widgets/wadi-modal.php:195 widgets/wadi-modal.php:197
+#: widgets/wadi-modal.php:198
+msgid "Footer Text"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:641
+msgid "Fraction"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:91 widgets/wadi-flip-box.php:757
+msgid "Front"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:452
+msgid "Full Box"
+msgstr ""
+
+#: widgets/wadi-modal.php:256
+msgid "Full Screen"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:35 admin/elements-list.php:67
+msgid "Gallery Grid"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:283
+msgid "Gallery Grid accepts external link from YouTube or Vimeo link"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:200
+msgid "Gallery Item Type"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:1100
+msgid "Gap"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:790 widgets/wadi-info-box.php:914
+#: admin/admin-helper.php:145
+msgid "General"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:235
+msgid "General Settings"
+msgstr ""
+
+#: widgets/wadi-price-list.php:819
+msgid "General Style"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:111 widgets/wadi-flip-box.php:296
+msgid "Grahpic Element"
+msgstr ""
+
+#: widgets/wadi-info-box.php:129
+msgid "Graphic Element"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:122 widgets/wadi-flip-box.php:307
+#: widgets/wadi-info-box.php:140
+msgid "Graphics"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1088 widgets/wadi-info-box.php:1150
+msgid "H1"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1089 widgets/wadi-info-box.php:1151
+msgid "H2"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1090 widgets/wadi-info-box.php:1152
+msgid "H3"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1091 widgets/wadi-info-box.php:1153
+msgid "H4"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1092 widgets/wadi-info-box.php:1154
+msgid "H5"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1093 widgets/wadi-info-box.php:1155
+msgid "H6"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:95
+msgid "Heading Text"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:219 widgets/wadi-flip-box.php:404
+msgid "Heading Title"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:912 widgets/wadi-flip-box.php:653
+msgid "Height"
+msgstr ""
+
+#: widgets/wadi-modal.php:302
+msgid "Height Size"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:151 widgets/wadi-image-comparison.php:216
+#: widgets/wadi-image-comparison.php:292 widgets/wadi-image-comparison.php:307
+#: widgets/wadi-image-comparison.php:324 widgets/wadi-image-comparison.php:341
+#: widgets/wadi-image-comparison.php:372 widgets/wadi-info-box.php:558
+#: widgets/wadi-info-box.php:573 widgets/wadi-info-box.php:589
+#: widgets/wadi-info-box.php:613 widgets/wadi-info-box.php:780
+#: widgets/wadi-info-box.php:809 widgets/wadi-accordion.php:349
+#: widgets/wadi-image-accordion.php:279 widgets/wadi-image-accordion.php:351
+#: widgets/wadi-image-accordion.php:385
+#: widgets/wadi-testimonial-carousel.php:1471
+msgid "Hide"
+msgstr ""
+
+#: widgets/wadi-info-box.php:554
+msgid "Hide on Desktop"
+msgstr ""
+
+#: widgets/wadi-info-box.php:585
+msgid "Hide on Mobile"
+msgstr ""
+
+#: widgets/wadi-info-box.php:569
+msgid "Hide On Tablet"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:618 widgets/wadi-fancy-text.php:194
+msgid "Highlight"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:614
+msgid "Highlight Color"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:187
+msgid "Highlight Shape"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:136
+msgid "Highlighted"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:600
+msgid "Highlighted Settings"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:115 widgets/wadi-fancy-text.php:260
+msgid "Highlighted Text"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:258 widgets/wadi-image-accordion.php:719
+#: widgets/wadi-tabs.php:309
+msgid "Horizontal"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:801 widgets/wadi-flip-box.php:1315
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:215
+msgid "Horizontal Brackets"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:851
+msgid "Horizontal Offset"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:1084
+msgid "Horizontal Position"
+msgstr ""
+
+#: widgets/wadi-price-list.php:542 widgets/wadi-price-list.php:946
+#: widgets/wadi-lottie-animation.php:277 widgets/wadi-lottie-animation.php:764
+#: widgets/wadi-blockquote.php:625 widgets/wadi-accordion.php:530
+#: widgets/wadi-accordion.php:874 widgets/wadi-image-accordion.php:132
+#: widgets/wadi-image-accordion.php:869 widgets/wadi-tabs.php:607
+#: widgets/wadi-gallery-grid.php:836
+msgid "Hover"
+msgstr ""
+
+#: widgets/wadi-info-box.php:527
+msgid "Hover Animation"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:331
+msgid "Hover Area"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:1364
+msgid "Hover Background"
+msgstr ""
+
+#: widgets/wadi-price-list.php:639 widgets/wadi-price-list.php:707
+#: widgets/wadi-price-list.php:806 widgets/wadi-accordion.php:769
+#: widgets/wadi-image-accordion.php:1373 widgets/wadi-tabs.php:834
+#: widgets/wadi-modal.php:1597 widgets/wadi-modal.php:1650
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:349
+msgid "Hover Out"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:243 widgets/wadi-fancy-text.php:800
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:482
+msgid "https://www.wadiweb.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wadiweb.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.wadiweb.com/wadi-addons-for-elementor/"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:246 widgets/wadi-info-box.php:888
+#: widgets/wadi-testimonial.php:300 widgets/wadi-testimonial-carousel.php:210
+#: widgets/wadi-gallery-grid.php:266
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:134 widgets/wadi-flip-box.php:319
+#: widgets/wadi-flip-box.php:981 widgets/wadi-flip-box.php:1495
+#: widgets/wadi-blockquote.php:215 widgets/wadi-info-box.php:152
+#: widgets/wadi-info-box.php:806 widgets/wadi-info-box.php:852
+#: widgets/wadi-accordion.php:193 widgets/wadi-accordion.php:736
+#: widgets/wadi-image-accordion.php:1065 widgets/wadi-tabs.php:137
+#: widgets/wadi-tabs.php:922 widgets/wadi-modal.php:527
+msgid "Icon"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:1011 widgets/wadi-flip-box.php:1525
+#: widgets/wadi-image-accordion.php:1084
+msgid "Icon Background"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:1108
+msgid "Icon Background Hover Color"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:994 widgets/wadi-flip-box.php:1508
+#: widgets/wadi-info-box.php:391 widgets/wadi-image-accordion.php:1072
+#: widgets/wadi-tabs.php:930
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/wadi-tabs.php:958
+msgid "Icon Color Active"
+msgstr ""
+
+#: widgets/wadi-tabs.php:944
+msgid "Icon Color Hover"
+msgstr ""
+
+#: widgets/wadi-info-box.php:406 widgets/wadi-image-accordion.php:1096
+msgid "Icon Hover Color"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:1037 widgets/wadi-flip-box.php:1551
+msgid "Icon Padding"
+msgstr ""
+
+#: widgets/wadi-info-box.php:837 widgets/wadi-accordion.php:331
+#: widgets/wadi-tabs.php:266
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/wadi-info-box.php:369
+msgid "Icon Rotate"
+msgstr ""
+
+#: widgets/wadi-tabs.php:1014
+msgid "Icon Shadow"
+msgstr ""
+
+#: widgets/wadi-info-box.php:328 widgets/wadi-accordion.php:744
+#: widgets/wadi-image-accordion.php:1120 widgets/wadi-tabs.php:972
+#: widgets/wadi-modal.php:1664
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:1053 widgets/wadi-flip-box.php:1567
+msgid "Icon Spacing"
+msgstr ""
+
+#: widgets/wadi-modal.php:887
+msgid "Icon Trigger"
+msgstr ""
+
+#: widgets/wadi-tabs.php:134
+msgid "Icon Type"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:347
+msgid "Icon with Custom Content"
+msgstr ""
+
+#: widgets/wadi-price-list.php:165 widgets/wadi-flip-box.php:130
+#: widgets/wadi-flip-box.php:315 widgets/wadi-flip-box.php:858
+#: widgets/wadi-flip-box.php:1372 widgets/wadi-info-box.php:148
+#: widgets/wadi-image-accordion.php:157 widgets/wadi-testimonial.php:408
+#: widgets/wadi-testimonial-carousel.php:154
+#: widgets/wadi-testimonial-carousel.php:1049 widgets/wadi-tabs.php:138
+#: widgets/wadi-gallery-grid.php:205 widgets/wadi-gallery-grid.php:237
+#: widgets/wadi-modal.php:526
+msgid "Image"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:125 widgets/wadi-testimonial-carousel.php:281
+msgid "Image Above"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:36 widgets/wadi-image-accordion.php:119
+#: admin/elements-list.php:209
+msgid "Image Accordion"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:451
+msgid "Image Border Radius"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:486
+msgid "Image Border Width"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:36 admin/elements-list.php:229
+msgid "Image Comparison"
+msgstr ""
+
+#: widgets/wadi-modal.php:846
+msgid "Image Container"
+msgstr ""
+
+#: widgets/wadi-info-box.php:239 widgets/wadi-gallery-grid.php:318
+msgid "Image Height"
+msgstr ""
+
+#: widgets/wadi-price-list.php:421
+msgid "Image Horizontal Alignment"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:123 widgets/wadi-testimonial-carousel.php:279
+msgid "Image Inline"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:126 widgets/wadi-testimonial-carousel.php:282
+msgid "Image Left"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:462
+msgid "Image Margin"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:782
+msgid "Image Overlay Color"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:794
+msgid "Image Overlay Color Active"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:473
+msgid "Image Padding"
+msgstr ""
+
+#: widgets/wadi-price-list.php:243 widgets/wadi-image-accordion.php:232
+msgid "Image Position"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:256
+msgid "Image Repeat"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:127 widgets/wadi-testimonial-carousel.php:283
+msgid "Image Right"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:176 widgets/wadi-image-accordion.php:672
+#: widgets/wadi-testimonial.php:416
+msgid "Image Size"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:871 widgets/wadi-flip-box.php:1385
+#: widgets/wadi-image-accordion.php:807
+msgid "Image Spacing"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:124 widgets/wadi-testimonial-carousel.php:280
+msgid "Image Stacked"
+msgstr ""
+
+#: widgets/wadi-price-list.php:998
+msgid "Image Style"
+msgstr ""
+
+#: widgets/wadi-info-box.php:451
+msgid "Image Styling"
+msgstr ""
+
+#: widgets/wadi-modal.php:780
+msgid "Image Trigger"
+msgstr ""
+
+#: widgets/wadi-info-box.php:275 widgets/wadi-image-accordion.php:195
+msgid "Image Width"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:1449
+msgid "Images Container"
+msgstr ""
+
+#: widgets/wadi-info-box.php:218 widgets/wadi-gallery-grid.php:370
+msgid "Images Fit"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:773
+msgid "Images Style"
+msgstr ""
+
+#: widgets/wadi-info-box.php:39 admin/elements-list.php:142
+msgid "Info Box"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:861
+msgid "Inline"
+msgstr ""
+
+#: admin/wadi-notices.php:73
+msgid "Install Now"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:220
+msgid "Item Categories"
+msgstr ""
+
+#: widgets/wadi-price-list.php:456
+msgid "Item Height"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:229
+msgid "Item Title"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:576
+msgid "Items"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:156
+msgid "Items Gap"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:177 widgets/wadi-testimonial-carousel.php:225
+#: widgets/wadi-testimonial-carousel.php:235
+#: widgets/wadi-testimonial-carousel.php:245
+msgid "John Doe"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:391
+msgid "Keep Animation"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:393
+msgid "Keep Lottie animation when user scrolls out of viewport"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:138 widgets/wadi-content-toggle.php:209
+#: widgets/wadi-blockquote.php:267 widgets/wadi-image-comparison.php:162
+#: widgets/wadi-image-comparison.php:227
+msgid "Label"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:718
+msgid "Label 1"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:809
+msgid "Label 2"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:725 widgets/wadi-content-toggle.php:816
+msgid "Label Color"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:654 widgets/wadi-image-comparison.php:467
+msgid "Labels"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:369
+msgid "Labels Only On Hover"
+msgstr ""
+
+#: widgets/wadi-tabs.php:423
+msgid "Laptop"
+msgstr ""
+
+#: widgets/wadi-price-list.php:210 widgets/wadi-fancy-text.php:857
+#: widgets/wadi-testimonial.php:119 widgets/wadi-testimonial-carousel.php:275
+msgid "Layout"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:113
+msgid "Layout Mode"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:105
+msgid "Layout Settings"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:594
+msgid "Lazy"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:521
+msgid "Lazyload"
+msgstr ""
+
+#: widgets/wadi-price-list.php:221 widgets/wadi-price-list.php:266
+#: widgets/wadi-price-list.php:320 widgets/wadi-price-list.php:400
+#: widgets/wadi-dual-heading.php:263 widgets/wadi-content-toggle.php:339
+#: widgets/wadi-flip-box.php:779 widgets/wadi-flip-box.php:1294
+#: widgets/wadi-fancy-text.php:820 widgets/wadi-lottie-animation.php:167
+#: widgets/wadi-lottie-animation.php:1001 widgets/wadi-blockquote.php:119
+#: widgets/wadi-blockquote.php:230 widgets/wadi-info-box.php:922
+#: widgets/wadi-info-box.php:1408 widgets/wadi-accordion.php:279
+#: widgets/wadi-image-accordion.php:537 widgets/wadi-image-accordion.php:753
+#: widgets/wadi-testimonial.php:137 widgets/wadi-testimonial-carousel.php:294
+#: widgets/wadi-tabs.php:358 widgets/wadi-gallery-grid.php:387
+#: widgets/wadi-gallery-grid.php:548 widgets/wadi-modal.php:580
+#: widgets/wadi-modal.php:659 widgets/wadi-modal.php:706
+#: widgets/wadi-modal.php:745 widgets/wadi-modal.php:811
+msgid "Left"
+msgstr ""
+
+#: widgets/wadi-info-box.php:174
+msgid "Left of Content"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:592
+msgid "Left to Right"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:1173
+msgid "Lightbox"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:1181
+msgid "Lightbox Background Color"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:1192
+msgid "Lightbox Elements Color"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:1203
+msgid "Lightbox Elements Hover Color"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:1214
+msgid "Lightbox Video Width (%)"
+msgstr ""
+
+#: widgets/wadi-price-list.php:153 widgets/wadi-dual-heading.php:139
+#: widgets/wadi-dual-heading.php:167 widgets/wadi-flip-box.php:437
+#: widgets/wadi-flip-box.php:480 widgets/wadi-lottie-animation.php:241
+#: widgets/wadi-blockquote.php:308 widgets/wadi-info-box.php:793
+#: widgets/wadi-info-box.php:886 widgets/wadi-image-accordion.php:381
+#: widgets/wadi-testimonial.php:295 widgets/wadi-testimonial-carousel.php:205
+#: widgets/wadi-gallery-grid.php:248
+msgid "Link"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1594
+msgid "Link Icon Styling"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:448
+msgid "Link Options"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:1332
+msgid "Link Styling"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:461
+msgid "Link Timeout"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:227
+msgid "Link to Animation"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:150 widgets/wadi-flip-box.php:464
+#: widgets/wadi-image-accordion.php:398
+msgid "Link Type"
+msgstr ""
+
+#: widgets/wadi-price-list.php:475
+msgid "List"
+msgstr ""
+
+#: admin/templates/widgets.php:84
+msgid "Live Demo"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:275
+msgid "Load"
+msgstr ""
+
+#: includes/class-wadi-queries.php:1441
+msgid "Load More"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:344 widgets/wadi-lottie-animation.php:443
+#: widgets/wadi-testimonial-carousel.php:444
+msgid "Loop"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:362
+msgid "Loop Count"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:445
+msgid ""
+"Loop the animation once it reaches the end, <b>Please Note:</b> lottie "
+"animation will only play once if loop is not enabled."
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:381 widgets/wadi-lottie-animation.php:496
+msgid "Loop Times"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:599
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:216
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+msgstr ""
+
+#: widgets/wadi-accordion.php:173 widgets/wadi-accordion.php:177
+#: widgets/wadi-accordion.php:181 widgets/wadi-image-accordion.php:320
+#: widgets/wadi-image-accordion.php:585 widgets/wadi-image-accordion.php:592
+#: widgets/wadi-tabs.php:246 widgets/wadi-tabs.php:250
+#: widgets/wadi-tabs.php:254
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:224
+#: widgets/wadi-testimonial-carousel.php:234
+#: widgets/wadi-testimonial-carousel.php:244
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sunt minus "
+"cupiditate animi ab, labore temporibus voluptatem delectus quis molestiae "
+"illum ut soluta aliquid rem, culpa facere nihil corporis aspernatur?"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:36 widgets/wadi-lottie-animation.php:112
+#: widgets/wadi-lottie-animation.php:615 admin/elements-list.php:219
+msgid "Lottie Animation"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:146
+msgid "Lottie Animation File URL"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:292
+msgid "Lottie Element"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:1124
+msgid "Lottie File is invalid (Not JSON file type)."
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:1111
+msgid "Lottie JSON file is missing."
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:1157
+msgid "Lottie JSON URL is invalid."
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:1144
+msgid "Lottie JSON URL is missing."
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:410
+msgid "Main"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:641
+msgid "Make Accordion Image Active at start"
+msgstr ""
+
+#: widgets/wadi-price-list.php:1060 widgets/wadi-dual-heading.php:530
+#: widgets/wadi-dual-heading.php:738 widgets/wadi-content-toggle.php:504
+#: widgets/wadi-content-toggle.php:1082 widgets/wadi-content-toggle.php:1216
+#: widgets/wadi-flip-box.php:1891 widgets/wadi-lottie-animation.php:951
+#: widgets/wadi-blockquote.php:485 widgets/wadi-blockquote.php:558
+#: widgets/wadi-blockquote.php:692 widgets/wadi-image-comparison.php:450
+#: widgets/wadi-info-box.php:1035 widgets/wadi-info-box.php:1371
+#: widgets/wadi-info-box.php:1560 widgets/wadi-info-box.php:1714
+#: widgets/wadi-accordion.php:437 widgets/wadi-image-accordion.php:1039
+#: widgets/wadi-image-accordion.php:1184 widgets/wadi-image-accordion.php:1312
+#: widgets/wadi-image-accordion.php:1433 widgets/wadi-image-accordion.php:1562
+#: widgets/wadi-testimonial.php:370 widgets/wadi-testimonial.php:514
+#: widgets/wadi-testimonial-carousel.php:868
+#: widgets/wadi-testimonial-carousel.php:916
+#: widgets/wadi-testimonial-carousel.php:1024 widgets/wadi-tabs.php:579
+#: widgets/wadi-tabs.php:678 widgets/wadi-tabs.php:784
+#: widgets/wadi-tabs.php:896 widgets/wadi-tabs.php:1023
+#: widgets/wadi-tabs.php:1126 widgets/wadi-tabs.php:1200
+#: widgets/wadi-gallery-grid.php:655 widgets/wadi-gallery-grid.php:721
+#: widgets/wadi-gallery-grid.php:967 widgets/wadi-gallery-grid.php:1023
+#: widgets/wadi-modal.php:1052 widgets/wadi-modal.php:1221
+#: widgets/wadi-modal.php:1344 widgets/wadi-modal.php:1556
+msgid "Margin"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:738
+msgid "margin"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:116
+msgid "Masonry"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:661
+msgid "Max Width"
+msgstr ""
+
+#: widgets/wadi-info-box.php:121 widgets/wadi-info-box.php:1260
+msgid "Media"
+msgstr ""
+
+#: admin/elements-list.php:57
+msgid "Media Carousel"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1305
+msgid "Media Container Margin"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:123 widgets/wadi-gallery-grid.php:252
+msgid "Media File"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:294
+msgid "Media Items"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:826 widgets/wadi-flip-box.php:1340
+#: widgets/wadi-info-box.php:967
+msgid "Middle"
+msgstr ""
+
+#: widgets/wadi-tabs.php:454
+msgid "Mobile"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:343 widgets/wadi-content-toggle.php:398
+msgid "Mobile (767px >)"
+msgstr ""
+
+#: widgets/wadi-tabs.php:425 widgets/wadi-tabs.php:430
+msgid "Mobile Extra"
+msgstr ""
+
+#: widgets/wadi-modal.php:35
+msgid "Modal"
+msgstr ""
+
+#: widgets/wadi-modal.php:990
+msgid "Modal Box"
+msgstr ""
+
+#: widgets/wadi-modal.php:119 widgets/wadi-modal.php:172
+#: widgets/wadi-modal.php:173
+msgid "Modal Content"
+msgstr ""
+
+#: widgets/wadi-modal.php:243
+msgid "Modal Display"
+msgstr ""
+
+#: widgets/wadi-modal.php:1238
+msgid "Modal Footer"
+msgstr ""
+
+#: widgets/wadi-modal.php:1092
+msgid "Modal Header"
+msgstr ""
+
+#: admin/elements-list.php:190
+msgid "Modal Popup"
+msgstr ""
+
+#: widgets/wadi-modal.php:129 widgets/wadi-modal.php:130
+msgid "Modal Title"
+msgstr ""
+
+#: widgets/wadi-modal.php:1130 widgets/wadi-modal.php:1251
+msgid "Modal Title Typography"
+msgstr ""
+
+#: widgets/wadi-modal.php:251
+msgid "Modal Type"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:390
+msgid "Mouse Click"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:389
+msgid "Mouse Drag"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:388
+msgid "Mouse Move"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:508
+msgid "Mousewheel"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:714
+msgid "Multiline"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:223 widgets/wadi-testimonial.php:558
+#: widgets/wadi-testimonial-carousel.php:165
+#: widgets/wadi-testimonial-carousel.php:882
+msgid "Name"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:225
+msgid "Name of the testimonial provider"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:483
+msgid "Nature"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:538
+#: widgets/wadi-testimonial-carousel.php:1189
+msgid "Navigation"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:558
+msgid "Next Icon"
+msgstr ""
+
+#: widgets/wadi-price-list.php:130 widgets/wadi-price-list.php:448
+#: widgets/wadi-dual-heading.php:142 widgets/wadi-dual-heading.php:206
+#: widgets/wadi-dual-heading.php:325 widgets/wadi-dual-heading.php:565
+#: widgets/wadi-dual-heading.php:577 widgets/wadi-dual-heading.php:592
+#: widgets/wadi-dual-heading.php:773 widgets/wadi-dual-heading.php:785
+#: widgets/wadi-dual-heading.php:799 widgets/wadi-content-toggle.php:382
+#: widgets/wadi-flip-box.php:114 widgets/wadi-flip-box.php:198
+#: widgets/wadi-flip-box.php:209 widgets/wadi-flip-box.php:299
+#: widgets/wadi-flip-box.php:383 widgets/wadi-flip-box.php:394
+#: widgets/wadi-flip-box.php:611 widgets/wadi-fancy-text.php:348
+#: widgets/wadi-fancy-text.php:366 widgets/wadi-fancy-text.php:409
+#: widgets/wadi-fancy-text.php:489 widgets/wadi-fancy-text.php:506
+#: widgets/wadi-fancy-text.php:523 widgets/wadi-fancy-text.php:587
+#: widgets/wadi-fancy-text.php:632 widgets/wadi-fancy-text.php:718
+#: widgets/wadi-fancy-text.php:734 widgets/wadi-fancy-text.php:750
+#: widgets/wadi-lottie-animation.php:231 widgets/wadi-lottie-animation.php:396
+#: widgets/wadi-lottie-animation.php:448 widgets/wadi-lottie-animation.php:519
+#: widgets/wadi-lottie-animation.php:598 widgets/wadi-blockquote.php:202
+#: widgets/wadi-info-box.php:132 widgets/wadi-accordion.php:256
+#: widgets/wadi-accordion.php:362 widgets/wadi-accordion.php:652
+#: widgets/wadi-image-accordion.php:146 widgets/wadi-image-accordion.php:468
+#: widgets/wadi-image-accordion.php:487 widgets/wadi-image-accordion.php:645
+#: widgets/wadi-image-accordion.php:736
+#: widgets/wadi-testimonial-carousel.php:412
+#: widgets/wadi-testimonial-carousel.php:449
+#: widgets/wadi-testimonial-carousel.php:482
+#: widgets/wadi-testimonial-carousel.php:497
+#: widgets/wadi-testimonial-carousel.php:512
+#: widgets/wadi-testimonial-carousel.php:525
+#: widgets/wadi-testimonial-carousel.php:550
+#: widgets/wadi-testimonial-carousel.php:627 widgets/wadi-gallery-grid.php:432
+#: widgets/wadi-gallery-grid.php:454 widgets/wadi-gallery-grid.php:595
+#: widgets/wadi-modal.php:187 widgets/wadi-modal.php:215
+#: widgets/wadi-modal.php:365 widgets/wadi-modal.php:484
+#: widgets/wadi-modal.php:497 widgets/wadi-modal.php:632
+#: widgets/wadi-modal.php:924
+msgid "No"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:440
+msgid "no"
+msgstr ""
+
+#: includes/class-wadi-queries.php:1485 includes/class-wadi-queries.php:1517
+msgid "No posts found."
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:260
+msgid "No-repeat"
+msgstr ""
+
+#: widgets/wadi-price-list.php:308 widgets/wadi-dual-heading.php:842
+#: widgets/wadi-flip-box.php:126 widgets/wadi-flip-box.php:311
+#: widgets/wadi-lottie-animation.php:199 widgets/wadi-blockquote.php:296
+#: widgets/wadi-info-box.php:144 widgets/wadi-accordion.php:716
+#: widgets/wadi-gallery-grid.php:251
+msgid "None"
+msgstr ""
+
+#: widgets/wadi-price-list.php:507 widgets/wadi-price-list.php:908
+#: widgets/wadi-lottie-animation.php:711 widgets/wadi-blockquote.php:586
+#: widgets/wadi-accordion.php:478 widgets/wadi-accordion.php:840
+#: widgets/wadi-image-accordion.php:849 widgets/wadi-tabs.php:508
+#: widgets/wadi-gallery-grid.php:777
+msgid "Normal"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:143
+msgid ""
+"Note: changes in styles options might affect the alignement of blockquote."
+msgstr ""
+
+#: widgets/wadi-accordion.php:253
+msgid ""
+"Note: Schema will not work if dynamic content (Elementor Templates) is used "
+"in FAQ's, make sure that all repeater content is Text Editor type and not "
+"used Elementor Templates, it will return text answer (Elementor Template)"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:220
+msgid ""
+"Nullam feugiat vulputate lectus vitae sodales. Suspendisse sollicitudin ante "
+"leo, sed condimentum nunc interdum sed. Quisque tincidunt condimentum turpis,"
+" nec sodales nulla. Maecenas feugiat, est at ornare euismod, massa felis "
+"semper nunc, scelerisque luctus dui sem ac felis."
+msgstr ""
+
+#: widgets/wadi-price-list.php:126
+msgid "Offer Discounted Price?"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:928 widgets/wadi-flip-box.php:1442
+#: widgets/wadi-lottie-animation.php:732 widgets/wadi-lottie-animation.php:784
+#: widgets/wadi-info-box.php:476
+msgid "Opacity"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:282 widgets/wadi-testimonial.php:652
+#: widgets/wadi-testimonial-carousel.php:191
+#: widgets/wadi-testimonial-carousel.php:991
+msgid "Organization"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:254
+msgid "Orientation"
+msgstr ""
+
+#: widgets/wadi-price-list.php:138
+msgid "Original Price"
+msgstr ""
+
+#: widgets/wadi-accordion.php:709
+msgid "Outline Style"
+msgstr ""
+
+#: widgets/wadi-accordion.php:688
+msgid "Outline Width"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:338
+msgid "Overlay"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:352 widgets/wadi-modal.php:332
+msgid "Overlay Color"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1095 widgets/wadi-info-box.php:1157
+msgid "p"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:118
+msgid "Packery"
+msgstr ""
+
+#: widgets/wadi-price-list.php:893 widgets/wadi-dual-heading.php:498
+#: widgets/wadi-dual-heading.php:706 widgets/wadi-content-toggle.php:472
+#: widgets/wadi-content-toggle.php:794 widgets/wadi-content-toggle.php:885
+#: widgets/wadi-content-toggle.php:1049 widgets/wadi-content-toggle.php:1184
+#: widgets/wadi-flip-box.php:765 widgets/wadi-flip-box.php:1280
+#: widgets/wadi-flip-box.php:1873 widgets/wadi-fancy-text.php:980
+#: widgets/wadi-fancy-text.php:1068 widgets/wadi-fancy-text.php:1170
+#: widgets/wadi-lottie-animation.php:866 widgets/wadi-lottie-animation.php:935
+#: widgets/wadi-blockquote.php:374 widgets/wadi-blockquote.php:496
+#: widgets/wadi-blockquote.php:706 widgets/wadi-image-comparison.php:574
+#: widgets/wadi-image-comparison.php:683 widgets/wadi-image-comparison.php:778
+#: widgets/wadi-info-box.php:1047 widgets/wadi-info-box.php:1383
+#: widgets/wadi-info-box.php:1576 widgets/wadi-info-box.php:1732
+#: widgets/wadi-accordion.php:636 widgets/wadi-accordion.php:909
+#: widgets/wadi-image-accordion.php:1027 widgets/wadi-image-accordion.php:1172
+#: widgets/wadi-image-accordion.php:1300 widgets/wadi-image-accordion.php:1421
+#: widgets/wadi-testimonial.php:382 widgets/wadi-testimonial.php:525
+#: widgets/wadi-testimonial.php:749 widgets/wadi-testimonial-carousel.php:751
+#: widgets/wadi-testimonial-carousel.php:852
+#: widgets/wadi-testimonial-carousel.php:1382 widgets/wadi-tabs.php:592
+#: widgets/wadi-tabs.php:690 widgets/wadi-tabs.php:796
+#: widgets/wadi-tabs.php:908 widgets/wadi-tabs.php:1035
+#: widgets/wadi-tabs.php:1137 widgets/wadi-tabs.php:1211
+#: widgets/wadi-gallery-grid.php:667 widgets/wadi-gallery-grid.php:733
+#: widgets/wadi-gallery-grid.php:979 widgets/wadi-gallery-grid.php:1011
+#: widgets/wadi-modal.php:1040 widgets/wadi-modal.php:1206
+#: widgets/wadi-modal.php:1329 widgets/wadi-modal.php:1540
+msgid "Padding"
+msgstr ""
+
+#: widgets/wadi-modal.php:528
+msgid "Page Load"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:623
+#: widgets/wadi-testimonial-carousel.php:1268
+msgid "Pagination"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:636
+msgid "Pagination Type"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:355
+msgid "Pause"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:583 widgets/wadi-testimonial-carousel.php:478
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/class-core-autoloader.php:220
+msgid "PHP"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:1114
+msgid "Please add Lottie JSON File."
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:1147
+msgid "Please add Lottie JSON URL."
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:1127
+msgid "Please add valid Lottie JSON File."
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:1160
+msgid "Please add valid Lottie JSON URL."
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:537
+msgid ""
+"Please note, when writing URL query parameter, category names if they have "
+"space replace them with underscore ( _ )."
+msgstr ""
+
+#: widgets/wadi-tabs.php:325
+msgid "Pointer Bar"
+msgstr ""
+
+#: admin/elements-list.php:113
+msgid "Posts"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1077
+msgid "Prefix"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1115
+msgid "Prefix Color"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1126
+msgid "Prefix Hover Color"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:871
+msgid "Prefix Spacing"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1085 widgets/wadi-info-box.php:1147
+msgid "Prefix Tag"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:1027
+msgid "Prefix Text"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:589
+msgid "Previous Icon"
+msgstr ""
+
+#: widgets/wadi-price-list.php:115 widgets/wadi-price-list.php:686
+msgid "Price"
+msgstr ""
+
+#: widgets/wadi-price-list.php:301
+msgid "Price Connector Type"
+msgstr ""
+
+#: widgets/wadi-price-list.php:342
+msgid "Price Description Alignment"
+msgstr ""
+
+#: widgets/wadi-price-list.php:39 admin/elements-list.php:104
+msgid "Price List"
+msgstr ""
+
+#: widgets/wadi-price-list.php:730
+msgid "Price Margin"
+msgstr ""
+
+#: widgets/wadi-price-list.php:742
+msgid "Price Padding"
+msgstr ""
+
+#: widgets/wadi-price-list.php:283
+msgid "Price Position"
+msgstr ""
+
+#: widgets/wadi-price-list.php:85
+msgid "Pricing List Item"
+msgstr ""
+
+#: widgets/wadi-price-list.php:827
+msgid "Pricing List Item Spacing"
+msgstr ""
+
+#: admin/elements-list.php:122
+msgid "Pricing Table"
+msgstr ""
+
+#: admin/templates/widgets.php:78
+msgid "pro"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:642
+msgid "Progress Bar"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:576 widgets/wadi-fancy-text.php:156
+msgid "Push"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:108
+msgid "Quotation"
+msgstr ""
+
+#: widgets/wadi-info-box.php:872 widgets/wadi-image-accordion.php:449
+msgid "Read More"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:1261
+msgid "Rectangle"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:464
+msgid "Redirect to link after selected timeout"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:578
+msgid "Render Type"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:259
+msgid "Repeat"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:261
+msgid "Repeat-x"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:262
+msgid "Repeat-y"
+msgstr ""
+
+#: widgets/wadi-info-box.php:540
+msgid "Responsive Display"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:354 widgets/wadi-lottie-animation.php:514
+#: widgets/wadi-testimonial-carousel.php:493
+msgid "Reverse"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:516
+msgid "Reverse the animation"
+msgstr ""
+
+#: widgets/wadi-price-list.php:229 widgets/wadi-price-list.php:270
+#: widgets/wadi-price-list.php:328 widgets/wadi-price-list.php:408
+#: widgets/wadi-dual-heading.php:271 widgets/wadi-content-toggle.php:347
+#: widgets/wadi-flip-box.php:787 widgets/wadi-flip-box.php:1302
+#: widgets/wadi-fancy-text.php:828 widgets/wadi-lottie-animation.php:175
+#: widgets/wadi-lottie-animation.php:1009 widgets/wadi-blockquote.php:127
+#: widgets/wadi-blockquote.php:234 widgets/wadi-info-box.php:930
+#: widgets/wadi-info-box.php:1416 widgets/wadi-accordion.php:287
+#: widgets/wadi-image-accordion.php:754 widgets/wadi-testimonial.php:145
+#: widgets/wadi-testimonial-carousel.php:302 widgets/wadi-tabs.php:366
+#: widgets/wadi-gallery-grid.php:395 widgets/wadi-gallery-grid.php:556
+#: widgets/wadi-modal.php:588 widgets/wadi-modal.php:663
+#: widgets/wadi-modal.php:714 widgets/wadi-modal.php:753
+#: widgets/wadi-modal.php:819
+msgid "Right"
+msgstr ""
+
+#: widgets/wadi-info-box.php:175
+msgid "Right of Content"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:593
+msgid "Right to Left"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:298 widgets/wadi-dual-heading.php:927
+#: widgets/wadi-fancy-text.php:154
+msgid "Rotate"
+msgstr ""
+
+#: widgets/wadi-modal.php:940
+msgid "Rotate Center"
+msgstr ""
+
+#: widgets/wadi-modal.php:943
+msgid "Rotate in 2 Back CW"
+msgstr ""
+
+#: widgets/wadi-modal.php:942
+msgid "Rotate in 2 CW"
+msgstr ""
+
+#: widgets/wadi-modal.php:938
+msgid "Rotate Top"
+msgstr ""
+
+#: widgets/wadi-modal.php:939
+msgid "Rotate Vertical Right"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:1260
+msgid "Round"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:730
+msgid "RTL"
+msgstr ""
+
+#: widgets/wadi-modal.php:941
+msgid "Scale in Top"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:279
+msgid "Scroll"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:288
+msgid "Scroll Relative To"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:308
+msgid "Scroll Viewport Trigger"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:589
+msgid "Second Label"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:337
+msgid "Section"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:149
+msgid ""
+"Sed at euismod orci. Fusce vulputate urna eu metus finibus ullamcorper. "
+"Pellentesque habitant morbi tristique senectus et netus et malesuada fames "
+"ac turpis egestas. Suspendisse convallis quam eget ex pharetra interdum. "
+"Vestibulum vel libero neque. Aliquam sapien odio, condimentum quis malesuada "
+"id, fringilla vitae nunc."
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:119
+msgid "Select Animation Type"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:337
+msgid "Select breakpoints where heading will stack."
+msgstr ""
+
+#: widgets/wadi-modal.php:1104
+msgid "Select HTML Title tag that fits your Modal design default is H2"
+msgstr ""
+
+#: widgets/wadi-info-box.php:167
+msgid "Select Position"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:161 widgets/wadi-content-toggle.php:232
+#: widgets/wadi-image-accordion.php:331 widgets/wadi-modal.php:154
+msgid "Select Template"
+msgstr ""
+
+#: widgets/wadi-info-box.php:602 widgets/wadi-info-box.php:610
+#: widgets/wadi-testimonial.php:236 widgets/wadi-testimonial.php:596
+#: widgets/wadi-testimonial-carousel.php:179
+#: widgets/wadi-testimonial-carousel.php:941
+msgid "Separator"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:181
+msgid "Separator between Name of testimonial author and organization/position."
+msgstr ""
+
+#: widgets/wadi-testimonial.php:238
+msgid "Separator between Name of testimonial writer and organization/position."
+msgstr ""
+
+#: widgets/wadi-info-box.php:661
+msgid "Separator Color"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:792
+msgid "Separator Line"
+msgstr ""
+
+#: widgets/wadi-info-box.php:622
+msgid "Separator Position"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:617
+msgid "Separator Size"
+msgstr ""
+
+#: widgets/wadi-info-box.php:751
+msgid "Separator Spacing"
+msgstr ""
+
+#: widgets/wadi-info-box.php:640
+msgid "Separator Style"
+msgstr ""
+
+#: widgets/wadi-info-box.php:676
+msgid "Separator Thickness"
+msgstr ""
+
+#: widgets/wadi-info-box.php:712
+msgid "Separator Width"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:223
+msgid "Service One"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:243
+msgid "Service Three"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:233
+msgid "Service Two"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:178 widgets/wadi-content-toggle.php:249
+msgid "Set anchor for your content, useful for remote linking to remotely"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:425
+msgid "Set Cursor for Typing Effect"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:394
+msgid ""
+"Set how many slides are scrolled per swipe. If set to 1, it will scroll 1 "
+"slide at a time. If set to 2, it will scroll 2 slides at a time. Etc."
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:378
+msgid "Set how many slides are viewable at the same time on screen."
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:594 widgets/wadi-dual-heading.php:604
+#: widgets/wadi-dual-heading.php:810
+msgid "Set image background for animated effect."
+msgstr ""
+
+#: widgets/wadi-price-list.php:443
+msgid "Set Items Height"
+msgstr ""
+
+#: widgets/wadi-price-list.php:444
+msgid "Set minimum height for each item"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:498
+msgid ""
+"Set the number of times the animation should loop. <b>Please Note:</b> "
+"lottie animation will play infinitely if this is not set."
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:269
+msgid "Set which content to display first on page load."
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:259 widgets/wadi-flip-box.php:563
+#: widgets/wadi-fancy-text.php:290 widgets/wadi-lottie-animation.php:263
+#: widgets/wadi-testimonial-carousel.php:368
+msgid "Settings"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:150 widgets/wadi-image-comparison.php:215
+#: widgets/wadi-image-comparison.php:291 widgets/wadi-image-comparison.php:306
+#: widgets/wadi-image-comparison.php:323 widgets/wadi-image-comparison.php:340
+#: widgets/wadi-image-comparison.php:371 widgets/wadi-info-box.php:557
+#: widgets/wadi-info-box.php:572 widgets/wadi-info-box.php:588
+#: widgets/wadi-info-box.php:612 widgets/wadi-info-box.php:779
+#: widgets/wadi-info-box.php:808 widgets/wadi-accordion.php:348
+#: widgets/wadi-image-accordion.php:278 widgets/wadi-image-accordion.php:350
+#: widgets/wadi-image-accordion.php:384
+#: widgets/wadi-testimonial-carousel.php:1470
+msgid "Show"
+msgstr ""
+
+#: widgets/wadi-modal.php:211
+msgid "Show Close Button"
+msgstr ""
+
+#: widgets/wadi-modal.php:361
+msgid "Show Close Icon"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:405
+msgid "Show Cursor"
+msgstr ""
+
+#: widgets/wadi-modal.php:183
+msgid "Show Footer"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:502
+msgid "Shuffle"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:592
+msgid "Shuffle on Filter"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:429
+msgid "Shuffle on Load"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:887 widgets/wadi-flip-box.php:1069
+#: widgets/wadi-flip-box.php:1401 widgets/wadi-flip-box.php:1583
+#: widgets/wadi-image-comparison.php:712 widgets/wadi-info-box.php:1625
+#: widgets/wadi-testimonial-carousel.php:1059
+#: widgets/wadi-testimonial-carousel.php:1211
+#: widgets/wadi-testimonial-carousel.php:1279
+#: widgets/wadi-gallery-grid.php:1121
+msgid "Size"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:750
+msgid "Skew Direction"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:732
+msgid "Skew Images"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:104 widgets/wadi-testimonial-carousel.php:260
+msgid "Skin"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:102
+msgid "Skins"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:575
+msgid "Slide"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:153
+msgid "Slide Down"
+msgstr ""
+
+#: widgets/wadi-modal.php:957
+msgid "Slide in Bottom"
+msgstr ""
+
+#: widgets/wadi-modal.php:958
+msgid "Slide in Bottom Left"
+msgstr ""
+
+#: widgets/wadi-modal.php:956
+msgid "Slide in Bottom Right"
+msgstr ""
+
+#: widgets/wadi-modal.php:952
+msgid "Slide in Left"
+msgstr ""
+
+#: widgets/wadi-modal.php:955
+msgid "Slide in Right"
+msgstr ""
+
+#: widgets/wadi-modal.php:951
+msgid "Slide in Top"
+msgstr ""
+
+#: widgets/wadi-modal.php:954
+msgid "Slide in Top Left"
+msgstr ""
+
+#: widgets/wadi-modal.php:953
+msgid "Slide in Top Right"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:384
+msgid "Slide On"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:152
+msgid "Slide Up"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:536
+msgid "Slide Up Speed"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:304
+msgid "Slider Handle"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:270
+msgid "Slider Offset Ratio"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:116
+#: widgets/wadi-testimonial-carousel.php:658
+msgid "Slides"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:377
+msgid "Slides Per View"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:393
+msgid "Slides to Scroll"
+msgstr ""
+
+#: widgets/wadi-modal.php:949
+msgid "Slit in Diagonal 1"
+msgstr ""
+
+#: widgets/wadi-modal.php:950
+msgid "Slit in Diagonal 2"
+msgstr ""
+
+#: widgets/wadi-modal.php:948
+msgid "Slit in Horizontal"
+msgstr ""
+
+#: widgets/wadi-modal.php:947
+msgid "Slit in Vertical"
+msgstr ""
+
+#: widgets/wadi-tabs.php:474
+msgid "Slow"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:519
+msgid "Smart Backspace"
+msgstr ""
+
+#: widgets/wadi-price-list.php:304 widgets/wadi-info-box.php:644
+#: widgets/wadi-accordion.php:712
+msgid "Solid"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:689
+msgid "Space Between"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:897
+msgid "Space between After Text and Fancy Text"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:872
+msgid "Space between Before Text and Fancy Text"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:355 widgets/wadi-content-toggle.php:662
+#: widgets/wadi-blockquote.php:411 widgets/wadi-accordion.php:794
+#: widgets/wadi-testimonial-carousel.php:974
+msgid "Spacing"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:833
+msgid "Spacing Color"
+msgstr ""
+
+#: widgets/wadi-price-list.php:859
+msgid "Spacing Image & Content"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:555
+msgid "Speed"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:625
+msgid "Speed Effect"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:336 widgets/wadi-content-toggle.php:391
+msgid "Stack on"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:322 widgets/wadi-content-toggle.php:379
+#: widgets/wadi-fancy-text.php:860
+msgid "Stacked"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:439
+msgid "Start Delay"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:356
+msgid "Stop"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:195
+msgid "Strike Through"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:691
+msgid "Stroke Width"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:699
+msgid "Styling"
+msgstr ""
+
+#: admin/templates/general.php:57
+msgid "Submit"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:895
+msgid "Suffix Spacing"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:1116
+msgid "Suffix Text"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:583
+msgid "SVG"
+msgstr ""
+
+#: widgets/wadi-modal.php:944
+msgid "Swirl in Forward"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:546
+msgid "Switch Color Off"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:557
+msgid "Switch Color On"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:292
+msgid "Switch Speed"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:538
+msgid "Switcher"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:610
+msgid "Switcher Border Radius"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:332
+msgid "Switcher Container"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:644
+msgid "Switcher Shadow"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:579
+msgid "Switcher Size"
+msgstr ""
+
+#: widgets/wadi-tabs.php:245
+msgid "Tab #1"
+msgstr ""
+
+#: widgets/wadi-tabs.php:249
+msgid "Tab #2"
+msgstr ""
+
+#: widgets/wadi-tabs.php:253
+msgid "Tab #3"
+msgstr ""
+
+#: widgets/wadi-tabs.php:212 widgets/wadi-tabs.php:213
+msgid "Tab Content"
+msgstr ""
+
+#: widgets/wadi-tabs.php:126
+msgid "Tab Icon"
+msgstr ""
+
+#: widgets/wadi-tabs.php:184 widgets/wadi-tabs.php:186
+#: widgets/wadi-tabs.php:187
+msgid "Tab Title"
+msgstr ""
+
+#: admin/elements-list.php:180
+msgid "Table"
+msgstr ""
+
+#: widgets/wadi-tabs.php:453
+msgid "Tablet"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:342 widgets/wadi-content-toggle.php:397
+msgid "Tablet (1023px >)"
+msgstr ""
+
+#: widgets/wadi-tabs.php:424 widgets/wadi-tabs.php:429
+msgid "Tablet Extra"
+msgstr ""
+
+#: widgets/wadi-tabs.php:34 widgets/wadi-tabs.php:116 widgets/wadi-tabs.php:498
+#: admin/elements-list.php:132
+msgid "Tabs"
+msgstr ""
+
+#: widgets/wadi-tabs.php:379
+msgid "Tabs Alignments"
+msgstr ""
+
+#: widgets/wadi-tabs.php:286
+msgid ""
+"Tabs are zero indexed which mean 0 is first tab and 1 is second tab and so "
+"on. Set to -1 if do not want any active tabs"
+msgstr ""
+
+#: widgets/wadi-tabs.php:240
+msgid "Tabs Items"
+msgstr ""
+
+#: widgets/wadi-tabs.php:337
+msgid "Tabs Layout"
+msgstr ""
+
+#: widgets/wadi-tabs.php:320
+msgid "Tabs Style"
+msgstr ""
+
+#: widgets/wadi-tabs.php:305
+msgid "Tabs Type"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:210 widgets/wadi-testimonial.php:213
+msgid "Testimonail Text"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:34 widgets/wadi-testimonial.php:179
+#: admin/elements-list.php:48
+msgid "Testimonial"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:35 admin/elements-list.php:249
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:350
+msgid "Testimonial Content Text Color"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:496
+msgid "Testimonial Info"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:167
+msgid "Testimonial Name"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:96
+msgid "Testimonial Settings"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:217
+msgid "Testimonial Slides"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:129
+msgid "Testimonial Title"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:214 widgets/wadi-flip-box.php:502
+#: widgets/wadi-fancy-text.php:927 widgets/wadi-blockquote.php:216
+#: widgets/wadi-info-box.php:870 widgets/wadi-modal.php:525
+#: widgets/wadi-modal.php:688
+msgid "Text"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:214
+msgid "Text & Icon"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:276 widgets/wadi-fancy-text.php:278
+msgid "Text After"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:231 widgets/wadi-fancy-text.php:234
+msgid "Text Before"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:417 widgets/wadi-dual-heading.php:625
+#: widgets/wadi-flip-box.php:1176 widgets/wadi-flip-box.php:1690
+#: widgets/wadi-blockquote.php:594 widgets/wadi-blockquote.php:632
+#: widgets/wadi-accordion.php:859 widgets/wadi-accordion.php:893
+msgid "Text Color"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:128 widgets/wadi-content-toggle.php:199
+#: widgets/wadi-accordion.php:128 widgets/wadi-image-accordion.php:305
+#: widgets/wadi-tabs.php:201 widgets/wadi-modal.php:144
+msgid "Text Editor"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:439 widgets/wadi-dual-heading.php:647
+#: widgets/wadi-content-toggle.php:745 widgets/wadi-content-toggle.php:836
+#: widgets/wadi-flip-box.php:1025 widgets/wadi-flip-box.php:1192
+#: widgets/wadi-flip-box.php:1257 widgets/wadi-flip-box.php:1539
+#: widgets/wadi-flip-box.php:1706 widgets/wadi-flip-box.php:1771
+#: widgets/wadi-fancy-text.php:1216 widgets/wadi-image-comparison.php:564
+#: widgets/wadi-image-comparison.php:673 widgets/wadi-accordion.php:510
+#: widgets/wadi-accordion.php:562 widgets/wadi-accordion.php:614
+#: widgets/wadi-image-accordion.php:999 widgets/wadi-image-accordion.php:1144
+#: widgets/wadi-image-accordion.php:1272 widgets/wadi-image-accordion.php:1393
+#: widgets/wadi-testimonial.php:588 widgets/wadi-testimonial.php:681
+#: widgets/wadi-testimonial-carousel.php:812
+#: widgets/wadi-testimonial-carousel.php:931
+#: widgets/wadi-testimonial-carousel.php:1039 widgets/wadi-tabs.php:887
+#: widgets/wadi-tabs.php:1108 widgets/wadi-gallery-grid.php:1151
+#: widgets/wadi-modal.php:1142 widgets/wadi-modal.php:1265
+msgid "Text Shadow"
+msgstr ""
+
+#: widgets/wadi-testimonial.php:284
+msgid ""
+"The Organization and/or the testimonial provider position within the "
+"organization"
+msgstr ""
+
+#: widgets/wadi-price-list.php:95 widgets/wadi-price-list.php:483
+#: widgets/wadi-flip-box.php:217 widgets/wadi-flip-box.php:402
+#: widgets/wadi-flip-box.php:1138 widgets/wadi-flip-box.php:1652
+#: widgets/wadi-lottie-animation.php:200 widgets/wadi-info-box.php:93
+#: widgets/wadi-info-box.php:1138 widgets/wadi-accordion.php:111
+#: widgets/wadi-accordion.php:113 widgets/wadi-accordion.php:114
+#: widgets/wadi-accordion.php:453 widgets/wadi-image-accordion.php:288
+#: widgets/wadi-image-accordion.php:290 widgets/wadi-image-accordion.php:1198
+#: widgets/wadi-testimonial-carousel.php:126 widgets/wadi-tabs.php:814
+#: widgets/wadi-modal.php:127
+msgid "Title"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:231 widgets/wadi-gallery-grid.php:299
+msgid "Title #1"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:305
+msgid "Title #2"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:584
+msgid "Title 1"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:591
+msgid "Title 2"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:598
+msgid "Title 3"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:409
+msgid "Title Alignment"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:1217
+msgid "Title Background"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1177 widgets/wadi-image-accordion.php:1206
+msgid "Title Color"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:195 widgets/wadi-flip-box.php:380
+msgid "Title Element"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:1241
+msgid "Title Hover Background"
+msgstr ""
+
+#: widgets/wadi-info-box.php:1188 widgets/wadi-image-accordion.php:1229
+msgid "Title Hover Color"
+msgstr ""
+
+#: widgets/wadi-accordion.php:388 widgets/wadi-modal.php:1103
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/wadi-price-list.php:594
+msgid "Title Margin"
+msgstr ""
+
+#: widgets/wadi-price-list.php:606
+msgid "Title Padding"
+msgstr ""
+
+#: widgets/wadi-info-box.php:81
+msgid "Title Prefix"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:1150 widgets/wadi-flip-box.php:1664
+msgid "Title Spacing"
+msgstr ""
+
+#: widgets/wadi-price-list.php:225 widgets/wadi-price-list.php:366
+#: widgets/wadi-flip-box.php:822 widgets/wadi-flip-box.php:1336
+#: widgets/wadi-lottie-animation.php:430 widgets/wadi-info-box.php:963
+#: widgets/wadi-image-accordion.php:498 widgets/wadi-tabs.php:270
+#: widgets/wadi-tabs.php:397
+msgid "Top"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:238
+msgid "Top Center"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:239
+msgid "Top Left"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:240
+msgid "Top Right"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:594
+msgid "Top to Bottom"
+msgstr ""
+
+#: widgets/wadi-info-box.php:502 widgets/wadi-testimonial-carousel.php:458
+msgid "Transition Duration"
+msgstr ""
+
+#: widgets/wadi-modal.php:1364
+msgid "Trigger Button"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:271
+msgid "Trigger On"
+msgstr ""
+
+#: widgets/wadi-modal.php:512
+msgid "Trigger Options"
+msgstr ""
+
+#: widgets/wadi-modal.php:520
+msgid "Trigger Type"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:190 widgets/wadi-blockquote.php:269
+msgid "Tweet"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:199
+msgid "Tweet Button"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:211
+msgid "Tweet Button Type"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:246
+msgid "Tweet Text Alignment"
+msgstr ""
+
+#: widgets/wadi-info-box.php:789
+msgid "Type"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:178
+msgid "Type author name here"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:298
+msgid "Type Speed"
+msgstr ""
+
+#: widgets/wadi-info-box.php:83
+msgid "Type title prefix here"
+msgstr ""
+
+#: widgets/wadi-info-box.php:109
+msgid "Type your description here"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:248 widgets/wadi-fancy-text.php:263
+msgid "Type your text here"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:141 widgets/wadi-content-toggle.php:212
+#: widgets/wadi-info-box.php:96
+msgid "Type your title here"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:151
+msgid "Typed"
+msgstr ""
+
+#: widgets/wadi-price-list.php:491 widgets/wadi-price-list.php:650
+#: widgets/wadi-price-list.php:718 widgets/wadi-fancy-text.php:960
+#: widgets/wadi-fancy-text.php:1048 widgets/wadi-fancy-text.php:1144
+#: widgets/wadi-image-comparison.php:503 widgets/wadi-image-comparison.php:611
+#: widgets/wadi-testimonial-carousel.php:801
+#: widgets/wadi-testimonial-carousel.php:905
+#: widgets/wadi-testimonial-carousel.php:964
+#: widgets/wadi-testimonial-carousel.php:1014 widgets/wadi-modal.php:1377
+#: widgets/wadi-modal.php:1612
+msgid "Typography"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:191
+msgid "Underline"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:123 widgets/wadi-image-comparison.php:187
+msgid "Uplad Image"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:157
+msgid "Upload a testimonial image."
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:193
+msgid "Upload the after image"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:129
+msgid "Upload the before image"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:153 widgets/wadi-flip-box.php:467
+#: widgets/wadi-blockquote.php:291 widgets/wadi-image-accordion.php:401
+msgid "URL"
+msgstr ""
+
+#: widgets/wadi-content-toggle.php:320
+msgid "URL Parameter"
+msgstr ""
+
+#: admin/templates/widgets.php:30
+msgid "Use this to Enable or Disable All Elements on single click."
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:578
+msgid "Used best with image background to fill text background with an image"
+msgstr ""
+
+#: widgets/wadi-blockquote.php:279
+msgid "Username"
+msgstr ""
+
+#: widgets/wadi-image-comparison.php:259 widgets/wadi-image-accordion.php:720
+#: widgets/wadi-tabs.php:310
+msgid "Vertical"
+msgstr ""
+
+#: widgets/wadi-price-list.php:362 widgets/wadi-flip-box.php:818
+#: widgets/wadi-flip-box.php:1332 widgets/wadi-info-box.php:959
+msgid "Vertical Alignment"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:216
+msgid "Vertical Brackets"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:889
+msgid "Vertical Offset"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:1047
+msgid "Vertical Position"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:209 admin/elements-list.php:200
+msgid "Video"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:1039
+msgid "Video Icon"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:280
+msgid "Video Link"
+msgstr ""
+
+#: admin/templates/widgets.php:98
+msgid "Video Tutorial"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:278 widgets/wadi-lottie-animation.php:409
+msgid "Viewport"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:368
+msgid "Viewport Margin"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:105
+msgid "Wadi"
+msgstr ""
+
+#: widgets/wadi-fancy-text.php:262 includes/class-core-autoloader.php:177
+#: includes/class-core-autoloader.php:193
+#: includes/class-core-autoloader.php:219
+#: includes/class-wadi-integration.php:211
+msgid "Wadi Addons"
+msgstr ""
+
+#. Name of the plugin
+msgid "Wadi Addons for Elementor"
+msgstr ""
+
+#: admin/wadi-notices.php:82
+msgid ""
+"Wadi Addons for Elementor is not working because you need to activate "
+"Elementor plugin."
+msgstr ""
+
+#: admin/wadi-notices.php:71
+msgid ""
+"Wadi Addons for Elementor is not working because you need to Install "
+"Elementor plugin."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Wadi Addons is a great collection of high quality widgets and addons for "
+"Elementor"
+msgstr ""
+
+#: widgets/wadi-modal.php:690 widgets/wadi-modal.php:691
+msgid "Wadi Addons Modal"
+msgstr ""
+
+#: admin/templates/widgets.php:29
+msgid "Wadi Elements Status"
+msgstr ""
+
+#. Author of the plugin
+msgid "Wadi Web"
+msgstr ""
+
+#: widgets/wadi-info-box.php:794
+msgid "Whole Box"
+msgstr ""
+
+#: widgets/wadi-image-accordion.php:464
+msgid "Whole Image Link"
+msgstr ""
+
+#: widgets/wadi-tabs.php:422
+msgid "Widescreen"
+msgstr ""
+
+#: admin/admin-helper.php:152
+msgid "Widgets"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:675 widgets/wadi-lottie-animation.php:625
+#: widgets/wadi-image-comparison.php:802 widgets/wadi-info-box.php:1208
+#: widgets/wadi-info-box.php:1278 widgets/wadi-testimonial-carousel.php:349
+#: widgets/wadi-modal.php:537
+msgid "Width"
+msgstr ""
+
+#: widgets/wadi-modal.php:265
+msgid "Width Size"
+msgstr ""
+
+#: widgets/wadi-lottie-animation.php:295
+msgid "Window"
+msgstr ""
+
+#: widgets/wadi-gallery-grid.php:222
+msgid ""
+"Write category names here, separate them by commas. Please note that you "
+"have to create the categories in category section in order to filter"
+msgstr ""
+
+#: widgets/wadi-testimonial-carousel.php:230
+#: widgets/wadi-testimonial-carousel.php:240
+#: widgets/wadi-testimonial-carousel.php:250
+msgid "XYZ, CEO"
+msgstr ""
+
+#: widgets/wadi-price-list.php:129 widgets/wadi-price-list.php:447
+#: widgets/wadi-dual-heading.php:141 widgets/wadi-dual-heading.php:205
+#: widgets/wadi-dual-heading.php:324 widgets/wadi-dual-heading.php:564
+#: widgets/wadi-dual-heading.php:576 widgets/wadi-dual-heading.php:591
+#: widgets/wadi-dual-heading.php:772 widgets/wadi-dual-heading.php:784
+#: widgets/wadi-dual-heading.php:798 widgets/wadi-content-toggle.php:381
+#: widgets/wadi-flip-box.php:113 widgets/wadi-flip-box.php:197
+#: widgets/wadi-flip-box.php:208 widgets/wadi-flip-box.php:298
+#: widgets/wadi-flip-box.php:382 widgets/wadi-flip-box.php:393
+#: widgets/wadi-flip-box.php:610 widgets/wadi-flip-box.php:728
+#: widgets/wadi-fancy-text.php:347 widgets/wadi-fancy-text.php:365
+#: widgets/wadi-fancy-text.php:408 widgets/wadi-fancy-text.php:488
+#: widgets/wadi-fancy-text.php:505 widgets/wadi-fancy-text.php:522
+#: widgets/wadi-fancy-text.php:586 widgets/wadi-fancy-text.php:631
+#: widgets/wadi-fancy-text.php:717 widgets/wadi-fancy-text.php:733
+#: widgets/wadi-fancy-text.php:749 widgets/wadi-lottie-animation.php:230
+#: widgets/wadi-lottie-animation.php:395 widgets/wadi-lottie-animation.php:447
+#: widgets/wadi-lottie-animation.php:518 widgets/wadi-lottie-animation.php:597
+#: widgets/wadi-blockquote.php:201 widgets/wadi-info-box.php:131
+#: widgets/wadi-accordion.php:255 widgets/wadi-accordion.php:361
+#: widgets/wadi-accordion.php:651 widgets/wadi-image-accordion.php:145
+#: widgets/wadi-image-accordion.php:467 widgets/wadi-image-accordion.php:486
+#: widgets/wadi-image-accordion.php:644 widgets/wadi-image-accordion.php:735
+#: widgets/wadi-testimonial-carousel.php:411
+#: widgets/wadi-testimonial-carousel.php:448
+#: widgets/wadi-testimonial-carousel.php:481
+#: widgets/wadi-testimonial-carousel.php:496
+#: widgets/wadi-testimonial-carousel.php:511
+#: widgets/wadi-testimonial-carousel.php:524
+#: widgets/wadi-testimonial-carousel.php:549
+#: widgets/wadi-testimonial-carousel.php:626 widgets/wadi-gallery-grid.php:431
+#: widgets/wadi-gallery-grid.php:453 widgets/wadi-gallery-grid.php:594
+#: widgets/wadi-modal.php:186 widgets/wadi-modal.php:214
+#: widgets/wadi-modal.php:364 widgets/wadi-modal.php:483
+#: widgets/wadi-modal.php:496 widgets/wadi-modal.php:631
+#: widgets/wadi-modal.php:923
+msgid "Yes"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:439
+msgid "yes"
+msgstr ""
+
+#: widgets/wadi-dual-heading.php:993
+msgid "Z-index"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:577
+msgid "Zoom In"
+msgstr ""
+
+#: widgets/wadi-flip-box.php:578
+msgid "Zoom out"
+msgstr ""

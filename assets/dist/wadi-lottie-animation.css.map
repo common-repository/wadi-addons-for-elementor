@@ -1,0 +1,1 @@
+{"version":3,"file":"wadi-lottie-animation.css","mappings":";;;AAAA;EACI;EACA;AACJ,C","sources":["webpack:///./src/style/lottie-animation.scss"],"sourcesContent":[".wadi_lottie_animation_container {\n  position: relative;\n  display: inline-block;\n}"],"names":[],"sourceRoot":""}

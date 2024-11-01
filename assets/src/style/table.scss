@@ -1,0 +1,240 @@
+@import './components/loader';
+@import './components/variables';
+
+.wadi_table_container {
+    width: 100%;
+    min-width: 100%;
+    .wadi_table {
+        width: 100%;
+        min-width: 100%;
+
+        thead {
+            tr {
+                background-color: $wadi_primary_color;
+                th {
+                    padding: 1rem;
+
+                    .wadi_table_cell_text {
+
+                        .wadi_header_image_cell_container  {
+                            
+                            img {
+                                width: 60px;
+                                height: auto;
+                                vertical-align: middle;
+                                display: inline-block;
+                            }
+                        }
+
+                        .wadi_heading_icon_align {
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+
+        tbody {
+
+            tr {
+                &.wadi_table_row {
+                    background-color: $wadi_secondary_color;
+                }
+                td {
+                    .wadi_image_cell_container {
+
+                        img {
+                            width: 60px;
+                            height: auto;
+                            vertical-align: middle;
+                            display: inline-block;
+                        }
+                    }
+                    .wadi_body_align_icon {
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+
+
+        // td, th{
+        //     background-color: transparent;
+        // }
+    }
+
+    // Table Search
+    .dataTables_filter {
+        display: block;
+        float: right;
+    }
+
+    // Table Entries Length
+
+    .dataTables_length {
+        display: block;
+        float: left;
+    }
+
+    .dt-buttons {
+        display: inline-block;
+        margin: 0 0 20px 20px;
+
+        // button.dt-button {
+        //     background: #f0eded;
+        //     color: #000;
+        //     border: 1px solid #ccc;
+        //     border-radius: 0;
+
+        //     &:hover {
+        //         background: #571717;
+        //         color: #fff;
+        //         border: 1px solid #737373;
+        //         border-radius: 0;
+        //     }
+        // }
+    }
+
+    .dataTables_paginate {
+        display: flex;
+        overflow: hidden;
+        perspective: 1px;
+
+        span {
+            display: flex;
+        }
+
+        .paginate_button  {
+            display: block;
+            cursor: pointer;
+        }
+    }
+
+
+    // Table Sorting Icons
+
+    table.dataTable thead th {
+        position: relative;
+        background-image: none !important;
+    }
+      
+    table.dataTable thead th.sorting:after,
+    table.dataTable thead th.sorting_asc:after,
+    table.dataTable thead th.sorting_desc:after {
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        display: block;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        transform: translate(-50%,-50%);
+    }
+    
+    table.dataTable thead th.sorting:after {
+        content: "\f0dc";
+        // color: #000;
+        // font-size: 1.1rem;
+        // padding-top: 0.12em;
+    }
+    table.dataTable thead th.sorting_asc:after {
+        content: "\f0de";
+    }
+    table.dataTable thead th.sorting_desc:after {
+        content: "\f0dd";
+    }
+
+    .wadi_table_pagination {
+        float: left;
+        margin-top: 1rem;
+        .paginate_button, .ellipsis {
+            background: $wadi_primary_color;
+            color: #fff;
+            border: 1px solid lighten($wadi_primary_color, 20%);
+            border-radius: 0;
+            padding: 0.6rem;
+
+            &:hover {
+                background: lighten($wadi_primary_color, 20%);
+                color: #fff;
+                border: 1px solid darken($wadi_primary_color, 20%);
+                border-radius: 0;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .wadi_table_container {
+        overflow-x: scroll;
+
+        // Table Search
+        .dataTables_filter {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+
+            label {
+                display: block;
+                width: 100%;
+            }
+            input {
+                width: 100%;
+            }
+        }
+
+        // Table Entries Length
+
+        .dataTables_length {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+
+            label {
+                display: block;
+                width: 100%;
+            }
+            select {
+                width: 100%;
+            }
+        }
+
+        .dt-buttons {
+            display: inline-block;
+            width: 100%;
+            padding: 1rem;
+            margin: 0;
+        }
+    }
+}
+
+
+// Wadi Table Sticky Header Logic CSS
+
+.wadi_table_sticky_header_yes .wadi_table_container thead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+@media screen and (max-width: 600px) {
+    .admin-bar .wadi_table_sticky_header_yes .wadi_table_container thead {
+        top: 0;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 782px) {
+    .admin-bar .wadi_table_sticky_header_yes .wadi_table_container thead {
+        top: 45px;
+    }
+}
+@media (min-width: 783px) {
+    .admin-bar .wadi_table_sticky_header_yes .wadi_table_container thead {
+        top: 30px;
+    }
+}
+.wadi_table_sticky_header_yes .wadi_table_container {
+    overflow: unset;
+}

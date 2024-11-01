@@ -1,0 +1,71 @@
+.wadi-promotion-dialog {
+
+    font-family: Roboto,Arial,Helvetica,Verdana,sans-serif;
+
+    .dialog-header {
+        font-family: Roboto,Arial,Helvetica,Verdana,sans-serif;        
+    }
+
+    .dialog-message  {
+        font-family: Roboto,Arial,Helvetica,Verdana,sans-serif;
+    }
+
+    .dialog-buttons-wrapper {
+        width: 100% !important;
+        font-family: Roboto,Arial,Helvetica,Verdana,sans-serif !important;
+
+        .wadi-promotion-pro-btn {
+            width: 100% !important;
+            font-family: Roboto,Arial,Helvetica,Verdana,sans-serif !important;
+        }
+    }
+}
+
+.wadi-promotion-btn {
+    background-color: #252c59 !important;
+    width: 50% !important;
+}
+
+.wadi-promotion-pro-btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #f47216;
+    color: #fff;
+    line-height: normal;
+}
+
+.wadi-promotion-pro-btn:hover {
+    color: #fff;
+}
+
+.wadi-promotion-dialog .eicon-pro-icon {
+    color: #f47216 !important;
+    margin: 0 6px !important;
+}
+
+.wadi-promotion-dialog .dialog-button {
+    font-size: 10px !important;
+    letter-spacing: 0.3px;
+    width: calc(50% - 5px) !important;
+}
+
+html:not([dir="rtl"]) .wadi-promotion-btn {
+    margin-right: 5px;
+}
+
+html:not([dir="rtl"]) .wadi-promotion-pro-btn {
+    margin-left: 5px;
+}
+
+[dir="rtl"] .wadi-promotion-pro-btn {
+    margin-right: 5px;
+}
+
+[dir="rtl"] .wadi-promotion-btn {
+    margin-left: 5px;
+}
+
+.elementor-panel .wadi-promotion-element>.elementor-element>.eicon-lock {
+    right: auto;
+    left: 0.6em;
+}

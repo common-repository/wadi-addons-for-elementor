@@ -1,0 +1,156 @@
+@import '../../../node_modules/swiper/swiper-bundle.css';
+
+.wadi_media_carousel_container {
+  height: auto;
+  width: 720px;
+    &.wadi_media_carousel_slideshow_skin {
+
+      .wadi_media_swiper {
+        width: 100%;
+        // height: 70%;
+        position: relative;
+      }
+
+      .wadi_media_swiper_thumbs {
+        width: 100%;
+        // height: 30%;
+
+        .swiper-wrapper {
+          height: 100%;
+          
+          .swiper-slide {
+            height: 100%;
+
+            .wadi_media_carousel_thumb {
+              height: 100%;
+              background-position: center center;
+              background-repeat: no-repeat;
+              // background-size: auto;
+              cursor: pointer;
+
+              &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                opacity: 0.5;
+              }
+
+            }
+
+            // Styling Active Thumbnails
+            &.swiper-slide-thumb-active {
+              .wadi_media_carousel_thumb {
+                position: relative;
+
+                &::before {
+                  content: '';
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background-color: #000;
+                  opacity: 0;
+                }
+
+              }
+            }
+
+
+          }
+        }
+
+      }
+    }
+
+    .wadi_media_swiper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+
+
+      .wadi-swiper-button {
+        position: absolute;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        z-index: 1;
+        cursor: pointer;
+        font-size: 25px;
+        color: rgb(41, 41, 41);
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%); 
+          }
+        .wadi-swiper-button svg {
+          fill: rgba(238, 238, 238, 0.9);
+          height: 1em;
+          width: 1em; }
+          .wadi-media_carousel_swiper-button-prev {
+          left: 10px; }
+        .wadi-media_carousel_swiper-button-next {
+          right: 10px; }
+          
+          .wadi-swiper-button-vertical {
+            position: absolute;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            z-index: 1;
+            cursor: pointer;
+            font-size: 25px;
+            color: rgb(41, 41, 41);
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                    transform: translateY(-50%); 
+                &.wadi_carousel_next_vertical {
+                  top: 93%;
+                  left: 50%;
+                  z-index: 99999;
+                }
+                &.wadi_carousel_prev_vertical {
+                  top: 7%;
+                  left: 50%;
+                  z-index: 99999;
+                }
+              }
+            .wadi-swiper-button-vertical svg {
+              fill: rgba(238, 238, 238, 0.9);
+              height: 1em;
+              width: 1em; }
+              
+              .swiper-pagination-bullet {
+                opacity: 1;
+              }
+  
+
+             .wadi_media_carousel_image {
+              background: no-repeat 50%;
+              -webkit-background-size: cover;
+              background-size: cover;
+              height: 100%;
+              position: relative;
+          }
+          
+          // Media Carousel Video Icon
+
+          .wadi_custom_embed_played {
+            font-size: 4rem;
+            color: #ddd;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+          }
+
+}
+

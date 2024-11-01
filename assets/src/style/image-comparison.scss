@@ -1,0 +1,80 @@
+@import "../../extLib/style/twentytwenty.css";
+
+
+.wa_image_comparison-container.active .wa_image_comparison-overlay .wa_image_comparison-before-label,
+    .wa_image_comparison-container.active .wa_image_comparison-overlay .wa_image_comparison-after-label, .wa_image_comparison-container.active :hover.wa_image_comparison-overlay .wa_image_comparison-before-label,
+    .wa_image_comparison-container.active :hover.wa_image_comparison-overlay .wa_image_comparison-after-label {
+      opacity: 1; 
+    }
+.wa_image_comparison-container{
+    height: 720px;
+    width: 100%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wa_image_comparison-overlay {
+
+        &.wa_image_comparison_label_show_on_hover {
+
+            .wa_image_comparison-after-label, .wa_image_comparison-before-label{
+                opacity: 0;
+            }
+            &:hover {
+            .wa_image_comparison-after-label, .wa_image_comparison-before-label{
+                    opacity: 1;
+                }
+                
+            }
+        }
+
+        &:hover {
+            background-color: transparent;
+        }
+        
+        .wa_image_comparison-after-label{
+            opacity: 1;
+        }
+
+        .wa_image_comparison-before-label{
+            opacity: 1;
+        }
+
+    }
+}
+
+.wa_image_comparison-handle{
+    &.wa_hide_compass {
+        border: none;
+        box-shadow: none;
+
+        &:before {
+            margin-bottom: 0;
+        }
+
+        &:after {
+            margin-top: 0;
+        }
+
+        .wa_image_comparison-left-arrow {
+            display: none;
+        }
+
+        .wa_image_comparison-right-arrow {
+            display: none;
+        }
+    }
+}
+.wa_image_comparison-hide-drag-compass {
+    // display: none;
+
+    &.wa_image_comparison-handle {
+
+        &::before, &::after{
+            display: none;
+        }
+    }
+
+
+}

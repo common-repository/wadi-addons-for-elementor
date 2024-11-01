@@ -1,0 +1,134 @@
+@import './components/variables';
+
+
+// Info Box Graphic Media Responsive Hide
+
+body[data-elementor-device-mode="desktop"]  {
+    .wadi_info_box_graphic_media.wadi_info_box_media_responsive_hidden_on_desktop {
+        display: none;
+    }
+}
+
+body[data-elementor-device-mode="tablet"] {
+    .wadi_info_box_graphic_media.wadi_info_box_media_responsive_hidden_on_tablet {
+        display: none;
+    }
+}
+
+body[data-elementor-device-mode="mobile"] {
+    .wadi_info_box_graphic_media.wadi_info_box_media_responsive_hidden_on_mobile {
+        display: none;
+    }
+}
+
+.wadi_info_box_container {
+    display: flex;
+    background-color: $wadi_secondary_color;
+ 
+    // Media Above Content
+    &.wadi_media_above-content {
+        flex-direction: column;
+        
+        .wadi_info_box_graphic_media {
+            display: flex;
+            order: 1;
+        }
+
+        .wadi_info_box_content {
+            order: 2;
+        }
+
+
+        .wadi_info_box_cta {
+            order: 3;
+        }
+
+    }
+    // Media Below Content
+    &.wadi_media_below-content {
+        flex-direction: column;
+
+        .wadi_info_box_content {
+            order: 1;
+        }
+
+        .wadi_info_box_graphic_media {
+            display: flex;
+            order: 2;
+        }
+
+        .wadi_info_box_cta {
+            order: 3;
+        }
+
+    }
+
+    // Media Left of Content
+
+    &.wadi_media_left-content{
+        flex-direction: row;
+
+        .wadi_info_box_graphic_media {
+            display: flex;
+            order: 1;
+        }
+
+        .wadi_info_box_content {
+            order: 2;
+        }
+
+        .wadi_info_box_cta {
+            order: 3;
+        }
+    }
+
+    // Media Right of Content
+
+    &.wadi_media_right-content {
+        flex-direction: row;
+
+        .wadi_info_box_content {
+            order: 1;
+        }
+
+        .wadi_info_box_graphic_media {
+            display: flex;
+            order: 2;
+        }
+
+        .wadi_info_box_cta {
+            order: 3;
+        }
+    }
+
+  .wadi_info_box_media_image, .wadi_info_box_icon{
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .wadi_info_box_whole_box_link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+  }
+
+  .wadi_info_box_cta {
+    display: flex;
+    
+    .wadi_info_box_link {
+      display: flex;
+      
+      .wadi_cta_link_icon {
+        margin: 0 10px;
+      }
+    }
+  }
+
+}

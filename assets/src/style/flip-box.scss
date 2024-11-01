@@ -1,0 +1,540 @@
+// Wadi Variables
+@import './components/variables';
+
+// Basics
+
+.wadi_flip_box_effect_flip {
+  .elementor-widget-container {
+    // height: inherit;
+    transform-style: preserve-3d;
+  }
+}
+
+  .wadi_flip_box {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 280px;
+
+    .wadi_flip_box_layer {
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+    }
+
+    .wadi_flip_box_layer_overlay {
+      width: 100%;
+      height: 100%;
+      // .wadi_flip_box_layer_inner {
+      //   height: 100%;
+      //   width: 100%;
+      //   .content-wrapper {
+      //     width: 100%;
+      //     height: 100%;
+      //   }
+      // }
+    }
+  }
+
+// Flip Effects
+.wadi_flip_box_effect_flip {
+  // width: 100%;
+  // height: 680px;
+  perspective: 1000px;
+
+  // Flip Left to Right
+
+  &.wadi_flip_box_direction_ltr {
+    &:hover {
+      .wadi_flip_box {
+        transform: rotateX(0) rotateY(180deg);
+
+        &:hover {
+          .wadi_flip_box__front {
+            z-index: 2;
+            transform: rotateX(0) rotateY(-180deg);
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: rotateX(0) rotateY(180deg);
+    }
+  }
+
+  // Flip Right to Left
+
+  &.wadi_flip_box_direction_rtl {
+    &:hover {
+      .wadi_flip_box {
+        transform: rotateX(0) rotateY(-180deg);
+
+        &:hover {
+          .wadi_flip_box__front {
+            z-index: 2;
+            transform: rotateX(0) rotateY(180deg);
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: rotateX(0) rotateY(-180deg);
+    }
+  }
+
+  // Flip Top to Bottom
+  &.wadi_flip_box_direction_ttb {
+    &:hover {
+      .wadi_flip_box {
+        transform: rotateY(0) rotateX(-180deg);
+
+        &:hover {
+          .wadi_flip_box__front {
+            z-index: 2;
+            transform: rotateY(0) rotateX(-180deg);
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: rotateY(0) rotateX(180deg);
+    }
+  }
+
+  // Flip Bottom to Top
+  &.wadi_flip_box_direction_btt {
+    &:hover {
+      .wadi_flip_box {
+        transform: rotateY(0) rotateX(180deg);
+
+        &:hover {
+          .wadi_flip_box__front {
+            z-index: 2;
+            transform: rotateY(0) rotateX(180deg);
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: rotateY(0) rotateX(-180deg);
+    }
+  }
+
+  // 3D Flip Effect
+
+  &.wadi_flip_box_3d {
+    .wadi_flip_box_layer_overlay {
+      transform: translateZ(90px) scale(0.91);
+    }
+  }
+}
+
+.wadi_flip_box__back {
+  background-color: $wadi_secondary_color;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  .wadi_flip_box_back_full_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+  }
+}
+
+/* hide back of pane during swap */
+.wadi_flip_box__front {
+  background-color: lighten($wadi_primary_color, 20%);
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: none;
+  width: 100%;
+  height: 100%;
+}
+
+.wadi_flip_box_layer_overlay {
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 35px;
+    text-align: center;
+    width: 100%;
+  height: 100%;
+}
+
+.content_wrapper {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+  // width: 100%;
+  // height: 100%;
+  // text-align: center;
+  // padding: 35px;
+
+  .wadi_flip_box_front_icon {
+    display: inline-block;
+    // background-color: #ff000091;
+    // padding: 41px;
+    // border-radius: 50%;
+
+    i {
+      font-size: 50px;
+    }
+  }
+
+  .wadi_flip_box_back_icon {
+    display: inline-block;
+    // background-color: #ff000091;
+    // padding: 41px;
+    // border-radius: 50%;
+
+    i {
+      font-size: 50px;
+    }
+  }
+
+  .wadi_flip_box_front_image {
+    // height: 100px;
+    // width: 100px;
+    img {
+      width: 100px;
+    }
+  }
+  .wadi_flip_box_back_image {
+    // height: 100px;
+    // width: 100px;
+    img {
+      width: 100px;
+    }
+  }
+  a.wadi_flip_box_back_url {
+    display: inline-block;
+    text-decoration: none;
+    // color: #000;
+    // background: #fff;
+    // border: 12px double #000;
+    // text-decoration: none;
+    // padding: 12px;
+    // display: inline-block;
+    // width: 250px;
+  }
+}
+
+// Slide Effects
+
+.wadi_flip_box_effect_slide {
+  width: 100%;
+  // height: 680px;
+  perspective: 1000px;
+
+  .wadi_flip_box {
+    overflow: hidden;
+  }
+
+  // Slide Left to Right
+  &.wadi_flip_box_direction_ltr {
+    &:hover {
+      .wadi_flip_box {
+        &:hover {
+          .wadi_flip_box__back {
+            z-index: 2;
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+
+  // Slide Right to Left
+
+  &.wadi_flip_box_direction_rtl {
+    &:hover {
+      .wadi_flip_box {
+        &:hover {
+          .wadi_flip_box__back {
+            z-index: 2;
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: translateX(100%) translateY(0);
+    }
+  }
+
+  // Slide Top to Bottom
+
+  &.wadi_flip_box_direction_ttb {
+    &:hover {
+      .wadi_flip_box {
+        &:hover {
+          .wadi_flip_box__back {
+            z-index: 2;
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: translateY(-100%) translateX(0);
+    }
+  }
+
+  // Slide Bottom to Top
+
+  &.wadi_flip_box_direction_btt {
+    &:hover {
+      .wadi_flip_box {
+        &:hover {
+          .wadi_flip_box__back {
+            z-index: 2;
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: translateY(100%) translateX(0);
+    }
+  }
+}
+
+// Push Effects
+
+.wadi_flip_box_effect_push {
+  width: 100%;
+  // height: 680px;
+  perspective: 1000px;
+
+  .wadi_flip_box {
+    overflow: hidden;
+  }
+
+  // Push Left to Right
+  &.wadi_flip_box_direction_ltr {
+    .wadi_flip_box__front {
+      transform: none;
+    }
+
+    &:hover {
+      .wadi_flip_box {
+        &:hover {
+          .wadi_flip_box__back {
+            z-index: 2;
+            transform: none;
+          }
+          .wadi_flip_box__front {
+            transform: translateX(100%) translateY(0);
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+
+  // Push Right to Left
+  &.wadi_flip_box_direction_rtl {
+    .wadi_flip_box__front {
+      transform: none;
+    }
+
+    &:hover {
+      .wadi_flip_box {
+        &:hover {
+          .wadi_flip_box__back {
+            z-index: 2;
+            transform: none;
+          }
+          .wadi_flip_box__front {
+            transform: translateX(-100%) translateY(0);
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: translateX(100%) translateY(0);
+    }
+  }
+
+  // Push Top to Bottom
+  &.wadi_flip_box_direction_ttb {
+    .wadi_flip_box__front {
+      transform: none;
+    }
+
+    &:hover {
+      .wadi_flip_box {
+        &:hover {
+          .wadi_flip_box__back {
+            z-index: 2;
+            transform: none;
+          }
+          .wadi_flip_box__front {
+            transform: translateX(0) translateY(100%);
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: translateX(0) translateY(-100%);
+    }
+  }
+
+  // Push Top to Bottom
+  &.wadi_flip_box_direction_btt {
+    .wadi_flip_box__front {
+      transform: none;
+    }
+
+    &:hover {
+      .wadi_flip_box {
+        &:hover {
+          .wadi_flip_box__back {
+            z-index: 2;
+            transform: none;
+          }
+          .wadi_flip_box__front {
+            transform: translateX(0) translateY(-100%);
+          }
+        }
+      }
+    }
+
+    .wadi_flip_box__back {
+      transform: translateX(0) translateY(100%);
+    }
+  }
+}
+
+// Zoom In Effects
+
+.wadi_flip_box_effect_zoom_in {
+  width: 100%;
+  // height: 680px;
+  perspective: 1000px;
+
+  .wadi_flip_box {
+    .wadi_flip_box__back {
+      -webkit-transition: opacity 0.5s 0.2s, -webkit-transform 0.7s;
+      transition: opacity 0.5s 0.2s, -webkit-transform 0.7s;
+      -o-transition: transform 0.7s, opacity 0.5s 0.2s;
+      transition: transform 0.7s, opacity 0.5s 0.2s;
+      transition: transform 0.7s, opacity 0.5s 0.2s, -webkit-transform 0.7s;
+      opacity: 0;
+      -webkit-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      transform: scale(0.7);
+    }
+    &:hover {
+      .wadi_flip_box__back {
+        -webkit-transition: opacity 0.5s, -webkit-transform 0.7s;
+        transition: opacity 0.5s, -webkit-transform 0.7s;
+        -o-transition: transform 0.7s, opacity 0.5s;
+        transition: transform 0.7s, opacity 0.5s;
+        transition: transform 0.7s, opacity 0.5s, -webkit-transform 0.7s;
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+// Zoom Out Effects
+
+.wadi_flip_box_effect_zoom_out {
+  width: 100%;
+  // height: 680px;
+  perspective: 1000px;
+
+  .wadi_flip_box {
+    .wadi_flip_box__front {
+      -webkit-transition: opacity 0.35s, width 0.1ms, -webkit-transform 0.7s;
+      transition: opacity 0.35s, width 0.1ms, -webkit-transform 0.7s;
+      -o-transition: transform 0.7s, opacity 0.35s, width 0.1ms;
+      transition: transform 0.7s, opacity 0.35s, width 0.1ms;
+      transition: transform 0.7s, opacity 0.35s, width 0.1ms,
+        -webkit-transform 0.7s;
+      opacity: 1;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      z-index: 1;
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    .wadi_flip_box__front {
+      width: 0;
+      opacity: 0;
+      -webkit-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      transform: scale(0.7);
+      -webkit-transition: opacity 0.7s 0.1s, width 0.1ms 0.7s,
+        -webkit-transform 0.8s;
+      transition: opacity 0.7s 0.1s, width 0.1ms 0.7s, -webkit-transform 0.8s;
+      -o-transition: transform 0.8s, opacity 0.7s 0.1s, width 0.1ms 0.7s;
+      transition: transform 0.8s, opacity 0.7s 0.1s, width 0.1ms 0.7s;
+      transition: transform 0.8s, opacity 0.7s 0.1s, width 0.1ms 0.7s,
+        -webkit-transform 0.8s;
+    }
+  }
+}
+
+// Fade Effects
+
+.wadi_flip_box_effect_fade {
+  width: 100%;
+  // height: 680px;
+  perspective: 1000px;
+
+  .wadi_flip_box {
+    .wadi_flip_box__back {
+      opacity: 0;
+      z-index: 2;
+    }
+    &:hover {
+      .wadi_flip_box__back {
+        z-index: 2;
+        opacity: 1;
+      }
+    }
+  }
+}
